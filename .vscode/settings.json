@@ -1,0 +1,8 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "d:\\Juanpa\\U\\Semestre 6\\Comunicacion de redes e Internet\\Proyecto 2\\Code\\dhcp4java-1.00.jar",
+        "d:\\Juanpa\\U\\Semestre 6\\Comunicacion de redes e Internet\\Proyecto 2\\Code\\log4j.jar",
+        "d:\\Juanpa\\U\\Semestre 6\\Comunicacion de redes e Internet\\Proyecto 2\\Code\\opencsv-2.2.jar"
+    ]
+}

@@ -1,0 +1,20 @@
+/*
+    Archivo plano
+*/
+byte [] rangoIPInicio ;
+byte [] rangoIPFin;
+byte [] mascaraSubNet;
+byte [] gateway;
+byte [] dns; 
+int     tiempoArrendamineto;
+
+/*HORAS EN LOS LOGS*/
+/*HORAS EN LOS LOGS*/
+/*HORAS EN LOS LOGS*/
+/*HORAS EN LOS LOGS*/
+/*HORAS EN LOS LOGS*/
+/*HORAS EN LOS LOGS*/
+/*HORAS EN LOS LOGS*/
+/*HORAS EN LOS LOGS*/
+/*HORAS EN LOS LOGS*/
+/*HORAS EN LOS LOGS*/

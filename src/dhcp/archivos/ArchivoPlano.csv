@@ -1,0 +1,9 @@
+Rango izquierdo,Rango derecho,Mascara de red,Gateway,DNS,Lease time
+10.10.10.2,10.10.10.49,255.255.255.192,10.10.10.1,8.8.8.8,90000
+10.10.10.66,10.10.10.100,255.255.255.224,10.10.10.65,8.8.8.8,180000
+
+
+
+Nombre,Cargo,Salario,Tiempo Completo,Departamento
+Jones Marcus D.,City Manager,318000,true,City Manager's Office
+Hagemann Robert E,City Attorney,248491.82,true,City Attorney
