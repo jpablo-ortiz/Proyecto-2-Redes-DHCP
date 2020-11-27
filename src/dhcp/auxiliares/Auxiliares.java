@@ -15,7 +15,7 @@ public class Auxiliares
     /**
      * Ruta del archivo empleados.cvs
      */
-    private static final String empleadosCSV = "src/main/java/com/dhcp/Archivos/ArchivoPlano.csv";
+    private static final String empleadosCSV = "src/dhcp/archivos/ArchivoPlano.csv";
 
     /**
      * Lee el arcivho empleados.csv ubicado en resources.

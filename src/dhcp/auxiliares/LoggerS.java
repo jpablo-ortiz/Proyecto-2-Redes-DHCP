@@ -11,7 +11,7 @@ public class LoggerS
 
     private static Logger logger = Logger.getLogger("MyLog");
 
-    private static File log4jfile = new File("src/main/resources/log.log");
+    private static File log4jfile = new File("src/dhcp/archivos/log.log");
 
     /**
      * @param mensaje
