@@ -67,11 +67,10 @@ public class ServidorDHCP
      */
     public static void main(String[] args)
     {
-
         try
         {
             ipServidor = Inet4Address.getLocalHost();
-            listaRedes = new ArrayList<>();
+            listaRedes = Auxiliares.obtenerRedesPorCSV();
             centroPaquetes = new LinkedList<>();
 
             new Thread(new Runnable()
