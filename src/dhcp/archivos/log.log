@@ -94,3 +94,5071 @@ DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
 DHO_HOST_NAME(12)="PC21"
 DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666801
 padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:20:22 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x2FBEE20D
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666801
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666801
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:20:22 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: No se pudo establecer una conexión con la red. ->121
+nov. 27, 2020 11:20:22 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x2FBEE20D
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666801
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666801
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:20:23 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:20:23 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 27, 2020 11:20:23 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:01:00:00:00:00:00:00:00:00:00:00 |
+nov. 27, 2020 11:20:23 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 27, 2020 11:20:24 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 27, 2020 11:20:24 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:20:24 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x2FBEE20D
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666801
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666801
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:20:24 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: No se pudo establecer una conexión con la red. ->121
+nov. 27, 2020 11:20:24 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x2FBEE20D
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666801
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666801
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:20:25 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:20:26 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 27, 2020 11:20:26 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:01:00:00:00:00:00:00:00:00:00:00 |
+nov. 27, 2020 11:20:26 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 27, 2020 11:20:26 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 27, 2020 11:20:26 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:20:26 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.2(68)
+op=BOOTREPLY(2)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x2FBEE20D
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=10.10.10.3
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666801
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPOFFER
+DHO_DHCP_LEASE_TIME(51)=90000
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_SUBNET_MASK(1)=255.255.255.192
+DHO_ROUTERS(3)=10.10.10.1 
+DHO_DOMAIN_NAME_SERVERS(6)=8.8.8.8 
+padding[26]=0000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:20:27 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: ----- PAQUETE INVÁLIDO ------
+nov. 27, 2020 11:20:28 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido invalido |
+nov. 27, 2020 11:20:28 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: -----------------------------
+nov. 27, 2020 11:20:28 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x2FBEE20D
+secs=0
+flags=0x0
+ciaddr=10.10.10.3
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666801
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPREQUEST
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_DHCP_REQUESTED_ADDRESS(50)=10.10.10.3
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666801
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_PARAMETER_REQUEST_LIST(55)=1 3 6 15 
+padding[87]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:24:45 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x1481B87A
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666801
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666801
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:24:45 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: No se pudo establecer una conexión con la red. ->121
+nov. 27, 2020 11:24:45 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x1481B87A
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666801
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666801
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:24:46 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:24:46 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 27, 2020 11:24:46 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:01:00:00:00:00:00:00:00:00:00:00 |
+nov. 27, 2020 11:24:46 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 27, 2020 11:24:46 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 27, 2020 11:24:46 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:24:46 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x1481B87A
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666801
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666801
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:24:47 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: No se pudo establecer una conexión con la red. ->121
+nov. 27, 2020 11:24:47 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x1481B87A
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666801
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666801
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:24:47 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:24:48 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 27, 2020 11:24:48 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:01:00:00:00:00:00:00:00:00:00:00 |
+nov. 27, 2020 11:24:48 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 27, 2020 11:24:48 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 27, 2020 11:24:48 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:24:48 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.2(68)
+op=BOOTREPLY(2)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x1481B87A
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=10.10.10.3
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666801
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPOFFER
+DHO_DHCP_LEASE_TIME(51)=90000
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_SUBNET_MASK(1)=255.255.255.192
+DHO_ROUTERS(3)=10.10.10.1 
+DHO_DOMAIN_NAME_SERVERS(6)=8.8.8.8 
+padding[26]=0000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:24:48 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: ----- PAQUETE INVÁLIDO ------
+nov. 27, 2020 11:24:48 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido invalido |
+nov. 27, 2020 11:24:48 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: -----------------------------
+nov. 27, 2020 11:24:49 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.2(68)
+op=BOOTREPLY(2)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x1481B87A
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=10.10.10.3
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666801
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPOFFER
+DHO_DHCP_LEASE_TIME(51)=90000
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_SUBNET_MASK(1)=255.255.255.192
+DHO_ROUTERS(3)=10.10.10.1 
+DHO_DOMAIN_NAME_SERVERS(6)=8.8.8.8 
+padding[26]=0000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:24:49 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: ----- PAQUETE INVÁLIDO ------
+nov. 27, 2020 11:24:49 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido invalido |
+nov. 27, 2020 11:24:49 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: -----------------------------
+nov. 27, 2020 11:24:49 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x1481B87A
+secs=0
+flags=0x0
+ciaddr=10.10.10.3
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666801
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPREQUEST
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_DHCP_REQUESTED_ADDRESS(50)=10.10.10.3
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666801
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_PARAMETER_REQUEST_LIST(55)=1 3 6 15 
+padding[87]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:26:52 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0xBA97B223
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666801
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666801
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:26:53 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: No se pudo establecer una conexión con la red. ->121
+nov. 27, 2020 11:26:53 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0xBA97B223
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666801
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666801
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:26:54 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:26:54 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 27, 2020 11:26:54 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:01:00:00:00:00:00:00:00:00:00:00 |
+nov. 27, 2020 11:26:54 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 27, 2020 11:26:54 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 27, 2020 11:26:54 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:26:54 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0xBA97B223
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666801
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666801
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:26:55 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: No se pudo establecer una conexión con la red. ->121
+nov. 27, 2020 11:26:55 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0xBA97B223
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666801
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666801
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:26:56 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:26:56 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 27, 2020 11:26:56 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:01:00:00:00:00:00:00:00:00:00:00 |
+nov. 27, 2020 11:26:56 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 27, 2020 11:26:56 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 27, 2020 11:26:56 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:26:56 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.2(68)
+op=BOOTREPLY(2)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0xBA97B223
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=10.10.10.3
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666801
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPOFFER
+DHO_DHCP_LEASE_TIME(51)=90000
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_SUBNET_MASK(1)=255.255.255.192
+DHO_ROUTERS(3)=10.10.10.1 
+DHO_DOMAIN_NAME_SERVERS(6)=8.8.8.8 
+padding[26]=0000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:26:57 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: ----- PAQUETE INVÁLIDO ------
+nov. 27, 2020 11:26:57 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido invalido |
+nov. 27, 2020 11:26:57 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: -----------------------------
+nov. 27, 2020 11:26:57 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0xBA97B223
+secs=0
+flags=0x0
+ciaddr=10.10.10.3
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666801
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPREQUEST
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_DHCP_REQUESTED_ADDRESS(50)=10.10.10.3
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666801
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_PARAMETER_REQUEST_LIST(55)=1 3 6 15 
+padding[87]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:33:30 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0xFA41CA1A
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666801
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666801
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:33:30 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: No se pudo establecer una conexión con la red. ->121
+nov. 27, 2020 11:33:30 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0xFA41CA1A
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666801
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666801
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:33:31 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:33:31 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 27, 2020 11:33:31 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:01:00:00:00:00:00:00:00:00:00:00 |
+nov. 27, 2020 11:33:31 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 27, 2020 11:33:32 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 27, 2020 11:33:32 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:33:32 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0xFA41CA1A
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666801
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666801
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:33:32 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: No se pudo establecer una conexión con la red. ->121
+nov. 27, 2020 11:33:32 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0xFA41CA1A
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666801
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666801
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:33:33 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:33:33 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 27, 2020 11:33:33 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:01:00:00:00:00:00:00:00:00:00:00 |
+nov. 27, 2020 11:33:33 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 27, 2020 11:33:33 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 27, 2020 11:33:33 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:33:33 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.2(68)
+op=BOOTREPLY(2)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0xFA41CA1A
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=10.10.10.3
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666801
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPOFFER
+DHO_DHCP_LEASE_TIME(51)=90000
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_SUBNET_MASK(1)=255.255.255.192
+DHO_ROUTERS(3)=10.10.10.1 
+DHO_DOMAIN_NAME_SERVERS(6)=8.8.8.8 
+padding[26]=0000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:33:33 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: ----- PAQUETE INVÁLIDO ------
+nov. 27, 2020 11:33:33 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido invalido |
+nov. 27, 2020 11:33:33 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: -----------------------------
+nov. 27, 2020 11:33:34 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.2(68)
+op=BOOTREPLY(2)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0xFA41CA1A
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=10.10.10.3
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666801
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPOFFER
+DHO_DHCP_LEASE_TIME(51)=90000
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_SUBNET_MASK(1)=255.255.255.192
+DHO_ROUTERS(3)=10.10.10.1 
+DHO_DOMAIN_NAME_SERVERS(6)=8.8.8.8 
+padding[26]=0000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:33:34 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: ----- PAQUETE INVÁLIDO ------
+nov. 27, 2020 11:33:34 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido invalido |
+nov. 27, 2020 11:33:34 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: -----------------------------
+nov. 27, 2020 11:33:34 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0xFA41CA1A
+secs=0
+flags=0x0
+ciaddr=10.10.10.3
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666801
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPREQUEST
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_DHCP_REQUESTED_ADDRESS(50)=10.10.10.3
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666801
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_PARAMETER_REQUEST_LIST(55)=1 3 6 15 
+padding[87]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:33:35 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:33:35 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- ACK ------------------------
+nov. 27, 2020 11:33:35 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-request | Dirección IP asignada: 10.10.10.3 |
+nov. 27, 2020 11:33:35 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Tiempo de arrendamiento: 90000 |
+nov. 27, 2020 11:33:35 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 27, 2020 11:33:35 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:33:36 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0xFA41CA1A
+secs=0
+flags=0x0
+ciaddr=10.10.10.3
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666801
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPREQUEST
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_DHCP_REQUESTED_ADDRESS(50)=10.10.10.3
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666801
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_PARAMETER_REQUEST_LIST(55)=1 3 6 15 
+padding[87]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:33:36 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:33:36 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- ACK ------------------------
+nov. 27, 2020 11:33:37 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-request | Dirección IP asignada: 10.10.10.3 |
+nov. 27, 2020 11:33:37 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Tiempo de arrendamiento: 90000 |
+nov. 27, 2020 11:33:37 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 27, 2020 11:33:37 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:33:37 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.2(68)
+op=BOOTREPLY(2)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0xFA41CA1A
+secs=0
+flags=0x0
+ciaddr=10.10.10.3
+yiaddr=10.10.10.3
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666801
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPACK
+DHO_DHCP_LEASE_TIME(51)=90000
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_SUBNET_MASK(1)=255.255.255.192
+DHO_ROUTERS(3)=10.10.10.1 
+DHO_DOMAIN_NAME_SERVERS(6)=8.8.8.8 
+padding[26]=0000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:33:38 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: ----- PAQUETE INVÁLIDO ------
+nov. 27, 2020 11:33:38 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido invalido |
+nov. 27, 2020 11:33:38 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: -----------------------------
+nov. 27, 2020 11:33:38 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.2(68)
+op=BOOTREPLY(2)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0xFA41CA1A
+secs=0
+flags=0x0
+ciaddr=10.10.10.3
+yiaddr=10.10.10.3
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666801
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPACK
+DHO_DHCP_LEASE_TIME(51)=90000
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_SUBNET_MASK(1)=255.255.255.192
+DHO_ROUTERS(3)=10.10.10.1 
+DHO_DOMAIN_NAME_SERVERS(6)=8.8.8.8 
+padding[26]=0000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:33:38 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: ----- PAQUETE INVÁLIDO ------
+nov. 27, 2020 11:33:38 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido invalido |
+nov. 27, 2020 11:33:38 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: -----------------------------
+nov. 27, 2020 11:45:12 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x5FCAD723
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC51"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:45:13 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: No se pudo establecer una conexión con la red. ->121
+nov. 27, 2020 11:45:13 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x5FCAD723
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC51"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:45:13 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:45:13 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 27, 2020 11:45:14 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 27, 2020 11:45:14 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 27, 2020 11:45:14 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 27, 2020 11:45:14 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:45:14 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x5FCAD723
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC51"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:45:15 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: No se pudo establecer una conexión con la red. ->121
+nov. 27, 2020 11:45:15 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x5FCAD723
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC51"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:45:15 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:45:15 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 27, 2020 11:45:15 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 27, 2020 11:45:15 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 27, 2020 11:45:15 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 27, 2020 11:45:15 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:45:15 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.2(68)
+op=BOOTREPLY(2)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x5FCAD723
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=10.10.10.3
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPOFFER
+DHO_DHCP_LEASE_TIME(51)=90000
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_SUBNET_MASK(1)=255.255.255.192
+DHO_ROUTERS(3)=10.10.10.1 
+DHO_DOMAIN_NAME_SERVERS(6)=8.8.8.8 
+padding[26]=0000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:45:16 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: ----- PAQUETE INVÁLIDO ------
+nov. 27, 2020 11:45:16 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido invalido |
+nov. 27, 2020 11:45:16 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: -----------------------------
+nov. 27, 2020 11:45:16 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.2(68)
+op=BOOTREPLY(2)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x5FCAD723
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=10.10.10.3
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPOFFER
+DHO_DHCP_LEASE_TIME(51)=90000
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_SUBNET_MASK(1)=255.255.255.192
+DHO_ROUTERS(3)=10.10.10.1 
+DHO_DOMAIN_NAME_SERVERS(6)=8.8.8.8 
+padding[26]=0000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:45:17 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: ----- PAQUETE INVÁLIDO ------
+nov. 27, 2020 11:45:17 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido invalido |
+nov. 27, 2020 11:45:17 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: -----------------------------
+nov. 27, 2020 11:45:17 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x5FCAD723
+secs=0
+flags=0x0
+ciaddr=10.10.10.3
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPREQUEST
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_DHCP_REQUESTED_ADDRESS(50)=10.10.10.3
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+DHO_HOST_NAME(12)="PC51"
+DHO_DHCP_PARAMETER_REQUEST_LIST(55)=1 3 6 15 
+padding[87]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:45:17 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:45:17 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- ACK ------------------------
+nov. 27, 2020 11:45:17 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-request | Dirección IP asignada: 10.10.10.3 |
+nov. 27, 2020 11:45:18 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Tiempo de arrendamiento: 90000 |
+nov. 27, 2020 11:45:18 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 27, 2020 11:45:18 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:45:18 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x5FCAD723
+secs=0
+flags=0x0
+ciaddr=10.10.10.3
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPREQUEST
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_DHCP_REQUESTED_ADDRESS(50)=10.10.10.3
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+DHO_HOST_NAME(12)="PC51"
+DHO_DHCP_PARAMETER_REQUEST_LIST(55)=1 3 6 15 
+padding[87]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:45:18 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:45:19 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- ACK ------------------------
+nov. 27, 2020 11:45:19 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-request | Dirección IP asignada: 10.10.10.3 |
+nov. 27, 2020 11:45:19 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Tiempo de arrendamiento: 90000 |
+nov. 27, 2020 11:45:19 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 27, 2020 11:45:19 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:45:19 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.2(68)
+op=BOOTREPLY(2)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x5FCAD723
+secs=0
+flags=0x0
+ciaddr=10.10.10.3
+yiaddr=10.10.10.3
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPACK
+DHO_DHCP_LEASE_TIME(51)=90000
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_SUBNET_MASK(1)=255.255.255.192
+DHO_ROUTERS(3)=10.10.10.1 
+DHO_DOMAIN_NAME_SERVERS(6)=8.8.8.8 
+padding[26]=0000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:45:20 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: ----- PAQUETE INVÁLIDO ------
+nov. 27, 2020 11:45:20 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido invalido |
+nov. 27, 2020 11:45:20 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: -----------------------------
+nov. 27, 2020 11:45:20 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.2(68)
+op=BOOTREPLY(2)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x5FCAD723
+secs=0
+flags=0x0
+ciaddr=10.10.10.3
+yiaddr=10.10.10.3
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPACK
+DHO_DHCP_LEASE_TIME(51)=90000
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_SUBNET_MASK(1)=255.255.255.192
+DHO_ROUTERS(3)=10.10.10.1 
+DHO_DOMAIN_NAME_SERVERS(6)=8.8.8.8 
+padding[26]=0000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:45:20 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: ----- PAQUETE INVÁLIDO ------
+nov. 27, 2020 11:45:20 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido invalido |
+nov. 27, 2020 11:45:20 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: -----------------------------
+nov. 27, 2020 11:45:31 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x8EF59A59
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666805
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC61"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666805
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:45:31 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: No se pudo establecer una conexión con la red. ->121
+nov. 27, 2020 11:45:31 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x8EF59A59
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666805
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC61"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666805
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:45:32 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:45:32 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 27, 2020 11:45:32 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:05:00:00:00:00:00:00:00:00:00:00 |
+nov. 27, 2020 11:45:32 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 27, 2020 11:45:32 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 27, 2020 11:45:32 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:45:32 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x8EF59A59
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666805
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC61"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666805
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:45:33 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: No se pudo establecer una conexión con la red. ->121
+nov. 27, 2020 11:45:33 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x8EF59A59
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666805
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC61"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666805
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:45:33 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:45:33 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 27, 2020 11:45:33 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:05:00:00:00:00:00:00:00:00:00:00 |
+nov. 27, 2020 11:45:33 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 27, 2020 11:45:33 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 27, 2020 11:45:33 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:45:34 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.2(68)
+op=BOOTREPLY(2)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x8EF59A59
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=10.10.10.3
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666805
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPOFFER
+DHO_DHCP_LEASE_TIME(51)=90000
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_SUBNET_MASK(1)=255.255.255.192
+DHO_ROUTERS(3)=10.10.10.1 
+DHO_DOMAIN_NAME_SERVERS(6)=8.8.8.8 
+padding[26]=0000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:45:34 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: ----- PAQUETE INVÁLIDO ------
+nov. 27, 2020 11:45:34 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido invalido |
+nov. 27, 2020 11:45:34 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: -----------------------------
+nov. 27, 2020 11:45:35 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.2(68)
+op=BOOTREPLY(2)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x8EF59A59
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=10.10.10.3
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666805
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPOFFER
+DHO_DHCP_LEASE_TIME(51)=90000
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_SUBNET_MASK(1)=255.255.255.192
+DHO_ROUTERS(3)=10.10.10.1 
+DHO_DOMAIN_NAME_SERVERS(6)=8.8.8.8 
+padding[26]=0000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:45:35 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: ----- PAQUETE INVÁLIDO ------
+nov. 27, 2020 11:45:35 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido invalido |
+nov. 27, 2020 11:45:35 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: -----------------------------
+nov. 27, 2020 11:45:35 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x8EF59A59
+secs=0
+flags=0x0
+ciaddr=10.10.10.3
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666805
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPREQUEST
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_DHCP_REQUESTED_ADDRESS(50)=10.10.10.3
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666805
+DHO_HOST_NAME(12)="PC61"
+DHO_DHCP_PARAMETER_REQUEST_LIST(55)=1 3 6 15 
+padding[87]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:45:36 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:45:36 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- ACK ------------------------
+nov. 27, 2020 11:45:36 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-request | Dirección IP asignada: 10.10.10.3 |
+nov. 27, 2020 11:45:36 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Tiempo de arrendamiento: 90000 |
+nov. 27, 2020 11:45:36 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 27, 2020 11:45:36 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:45:36 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x8EF59A59
+secs=0
+flags=0x0
+ciaddr=10.10.10.3
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666805
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPREQUEST
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_DHCP_REQUESTED_ADDRESS(50)=10.10.10.3
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666805
+DHO_HOST_NAME(12)="PC61"
+DHO_DHCP_PARAMETER_REQUEST_LIST(55)=1 3 6 15 
+padding[87]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:45:36 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:45:36 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- ACK ------------------------
+nov. 27, 2020 11:45:36 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-request | Dirección IP asignada: 10.10.10.3 |
+nov. 27, 2020 11:45:36 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Tiempo de arrendamiento: 90000 |
+nov. 27, 2020 11:45:37 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 27, 2020 11:45:37 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:45:37 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.2(68)
+op=BOOTREPLY(2)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x8EF59A59
+secs=0
+flags=0x0
+ciaddr=10.10.10.3
+yiaddr=10.10.10.3
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666805
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPACK
+DHO_DHCP_LEASE_TIME(51)=90000
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_SUBNET_MASK(1)=255.255.255.192
+DHO_ROUTERS(3)=10.10.10.1 
+DHO_DOMAIN_NAME_SERVERS(6)=8.8.8.8 
+padding[26]=0000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:45:37 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: ----- PAQUETE INVÁLIDO ------
+nov. 27, 2020 11:45:37 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido invalido |
+nov. 27, 2020 11:45:37 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: -----------------------------
+nov. 27, 2020 11:45:37 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.2(68)
+op=BOOTREPLY(2)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x8EF59A59
+secs=0
+flags=0x0
+ciaddr=10.10.10.3
+yiaddr=10.10.10.3
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666805
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPACK
+DHO_DHCP_LEASE_TIME(51)=90000
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_SUBNET_MASK(1)=255.255.255.192
+DHO_ROUTERS(3)=10.10.10.1 
+DHO_DOMAIN_NAME_SERVERS(6)=8.8.8.8 
+padding[26]=0000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:45:38 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: ----- PAQUETE INVÁLIDO ------
+nov. 27, 2020 11:45:38 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido invalido |
+nov. 27, 2020 11:45:38 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: -----------------------------
+nov. 27, 2020 11:47:09 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x13634C01
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC51"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:47:10 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: No se pudo establecer una conexión con la red. ->121
+nov. 27, 2020 11:47:10 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x13634C01
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC51"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:47:10 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:47:10 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 27, 2020 11:47:10 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 27, 2020 11:47:10 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 27, 2020 11:47:10 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 27, 2020 11:47:10 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:47:11 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x13634C01
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC51"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:47:11 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: No se pudo establecer una conexión con la red. ->121
+nov. 27, 2020 11:47:11 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x13634C01
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC51"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:47:12 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:47:12 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 27, 2020 11:47:12 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 27, 2020 11:47:12 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 27, 2020 11:47:12 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 27, 2020 11:47:12 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:47:12 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.2(68)
+op=BOOTREPLY(2)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x13634C01
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=10.10.10.3
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPOFFER
+DHO_DHCP_LEASE_TIME(51)=90000
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_SUBNET_MASK(1)=255.255.255.192
+DHO_ROUTERS(3)=10.10.10.1 
+DHO_DOMAIN_NAME_SERVERS(6)=8.8.8.8 
+padding[26]=0000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:47:13 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: ----- PAQUETE INVÁLIDO ------
+nov. 27, 2020 11:47:13 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido invalido |
+nov. 27, 2020 11:47:13 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: -----------------------------
+nov. 27, 2020 11:47:13 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.2(68)
+op=BOOTREPLY(2)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x13634C01
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=10.10.10.3
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPOFFER
+DHO_DHCP_LEASE_TIME(51)=90000
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_SUBNET_MASK(1)=255.255.255.192
+DHO_ROUTERS(3)=10.10.10.1 
+DHO_DOMAIN_NAME_SERVERS(6)=8.8.8.8 
+padding[26]=0000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:47:14 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: ----- PAQUETE INVÁLIDO ------
+nov. 27, 2020 11:47:14 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido invalido |
+nov. 27, 2020 11:47:14 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: -----------------------------
+nov. 27, 2020 11:47:14 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x13634C01
+secs=0
+flags=0x0
+ciaddr=10.10.10.3
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPREQUEST
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_DHCP_REQUESTED_ADDRESS(50)=10.10.10.3
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+DHO_HOST_NAME(12)="PC51"
+DHO_DHCP_PARAMETER_REQUEST_LIST(55)=1 3 6 15 
+padding[87]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:47:14 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:47:14 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- ACK ------------------------
+nov. 27, 2020 11:47:14 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-request | Dirección IP asignada: 10.10.10.3 |
+nov. 27, 2020 11:47:14 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Tiempo de arrendamiento: 90000 |
+nov. 27, 2020 11:47:14 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 27, 2020 11:47:15 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:47:15 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x13634C01
+secs=0
+flags=0x0
+ciaddr=10.10.10.3
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPREQUEST
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_DHCP_REQUESTED_ADDRESS(50)=10.10.10.3
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+DHO_HOST_NAME(12)="PC51"
+DHO_DHCP_PARAMETER_REQUEST_LIST(55)=1 3 6 15 
+padding[87]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:47:15 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:47:15 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- ACK ------------------------
+nov. 27, 2020 11:47:15 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-request | Dirección IP asignada: 10.10.10.3 |
+nov. 27, 2020 11:47:15 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Tiempo de arrendamiento: 90000 |
+nov. 27, 2020 11:47:15 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 27, 2020 11:47:15 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:47:15 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.2(68)
+op=BOOTREPLY(2)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x13634C01
+secs=0
+flags=0x0
+ciaddr=10.10.10.3
+yiaddr=10.10.10.3
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPACK
+DHO_DHCP_LEASE_TIME(51)=90000
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_SUBNET_MASK(1)=255.255.255.192
+DHO_ROUTERS(3)=10.10.10.1 
+DHO_DOMAIN_NAME_SERVERS(6)=8.8.8.8 
+padding[26]=0000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:47:16 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: ----- PAQUETE INVÁLIDO ------
+nov. 27, 2020 11:47:16 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido invalido |
+nov. 27, 2020 11:47:16 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: -----------------------------
+nov. 27, 2020 11:47:16 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.2(68)
+op=BOOTREPLY(2)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x13634C01
+secs=0
+flags=0x0
+ciaddr=10.10.10.3
+yiaddr=10.10.10.3
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPACK
+DHO_DHCP_LEASE_TIME(51)=90000
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_SUBNET_MASK(1)=255.255.255.192
+DHO_ROUTERS(3)=10.10.10.1 
+DHO_DOMAIN_NAME_SERVERS(6)=8.8.8.8 
+padding[26]=0000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:47:16 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: ----- PAQUETE INVÁLIDO ------
+nov. 27, 2020 11:47:16 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido invalido |
+nov. 27, 2020 11:47:16 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: -----------------------------
+nov. 27, 2020 11:54:31 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x1C057A26
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:54:32 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: No se pudo establecer una conexión con la red. ->121
+nov. 27, 2020 11:54:32 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x1C057A26
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:54:33 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:54:33 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 27, 2020 11:54:33 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 27, 2020 11:54:33 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 27, 2020 11:54:33 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 27, 2020 11:54:33 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:54:33 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x1C057A26
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:54:34 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: No se pudo establecer una conexión con la red. ->121
+nov. 27, 2020 11:54:34 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x1C057A26
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:54:35 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:54:35 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 27, 2020 11:54:35 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 27, 2020 11:54:35 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 27, 2020 11:54:35 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 27, 2020 11:54:35 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:54:35 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.2(68)
+op=BOOTREPLY(2)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x1C057A26
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=10.10.10.3
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPOFFER
+DHO_DHCP_LEASE_TIME(51)=90000
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_SUBNET_MASK(1)=255.255.255.192
+DHO_ROUTERS(3)=10.10.10.1 
+DHO_DOMAIN_NAME_SERVERS(6)=8.8.8.8 
+padding[26]=0000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:54:36 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: ----- PAQUETE INVÁLIDO ------
+nov. 27, 2020 11:54:36 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido invalido |
+nov. 27, 2020 11:54:36 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: -----------------------------
+nov. 27, 2020 11:54:36 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x1C057A26
+secs=0
+flags=0x0
+ciaddr=10.10.10.3
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPREQUEST
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_DHCP_REQUESTED_ADDRESS(50)=10.10.10.3
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_PARAMETER_REQUEST_LIST(55)=1 3 6 15 
+padding[87]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:54:36 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:54:36 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- ACK ------------------------
+nov. 27, 2020 11:54:37 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-request | Dirección IP asignada: 10.10.10.3 |
+nov. 27, 2020 11:54:37 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Tiempo de arrendamiento: 90000 |
+nov. 27, 2020 11:54:37 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 27, 2020 11:54:37 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:54:37 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.2(68)
+op=BOOTREPLY(2)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x1C057A26
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=10.10.10.3
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPOFFER
+DHO_DHCP_LEASE_TIME(51)=90000
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_SUBNET_MASK(1)=255.255.255.192
+DHO_ROUTERS(3)=10.10.10.1 
+DHO_DOMAIN_NAME_SERVERS(6)=8.8.8.8 
+padding[26]=0000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:54:37 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: ----- PAQUETE INVÁLIDO ------
+nov. 27, 2020 11:54:37 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido invalido |
+nov. 27, 2020 11:54:37 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: -----------------------------
+nov. 27, 2020 11:54:37 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.2(68)
+op=BOOTREPLY(2)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x1C057A26
+secs=0
+flags=0x0
+ciaddr=10.10.10.3
+yiaddr=10.10.10.3
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPACK
+DHO_DHCP_LEASE_TIME(51)=90000
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_SUBNET_MASK(1)=255.255.255.192
+DHO_ROUTERS(3)=10.10.10.1 
+DHO_DOMAIN_NAME_SERVERS(6)=8.8.8.8 
+padding[26]=0000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:54:38 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: ----- PAQUETE INVÁLIDO ------
+nov. 27, 2020 11:54:38 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido invalido |
+nov. 27, 2020 11:54:38 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: -----------------------------
+nov. 27, 2020 11:55:00 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x3EAEC227
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666805
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666805
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:55:00 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: No se pudo establecer una conexión con la red. ->121
+nov. 27, 2020 11:55:00 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x3EAEC227
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666805
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666805
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:55:01 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:55:01 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 27, 2020 11:55:01 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:05:00:00:00:00:00:00:00:00:00:00 |
+nov. 27, 2020 11:55:01 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.4 | Tiempo de arrendamiento: 90000s |
+nov. 27, 2020 11:55:01 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 27, 2020 11:55:01 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:55:01 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x3EAEC227
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666805
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666805
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:55:02 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: No se pudo establecer una conexión con la red. ->121
+nov. 27, 2020 11:55:02 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x3EAEC227
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666805
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666805
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:55:02 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:55:02 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 27, 2020 11:55:02 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:05:00:00:00:00:00:00:00:00:00:00 |
+nov. 27, 2020 11:55:02 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.4 | Tiempo de arrendamiento: 90000s |
+nov. 27, 2020 11:55:02 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 27, 2020 11:55:02 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:55:02 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.2(68)
+op=BOOTREPLY(2)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x3EAEC227
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=10.10.10.4
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666805
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPOFFER
+DHO_DHCP_LEASE_TIME(51)=90000
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_SUBNET_MASK(1)=255.255.255.192
+DHO_ROUTERS(3)=10.10.10.1 
+DHO_DOMAIN_NAME_SERVERS(6)=8.8.8.8 
+padding[26]=0000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:55:03 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: ----- PAQUETE INVÁLIDO ------
+nov. 27, 2020 11:55:03 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido invalido |
+nov. 27, 2020 11:55:03 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: -----------------------------
+nov. 27, 2020 11:55:03 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.2(68)
+op=BOOTREPLY(2)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x3EAEC227
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=10.10.10.4
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666805
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPOFFER
+DHO_DHCP_LEASE_TIME(51)=90000
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_SUBNET_MASK(1)=255.255.255.192
+DHO_ROUTERS(3)=10.10.10.1 
+DHO_DOMAIN_NAME_SERVERS(6)=8.8.8.8 
+padding[26]=0000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:55:04 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: ----- PAQUETE INVÁLIDO ------
+nov. 27, 2020 11:55:04 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido invalido |
+nov. 27, 2020 11:55:04 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: -----------------------------
+nov. 27, 2020 11:55:04 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x3EAEC227
+secs=0
+flags=0x0
+ciaddr=10.10.10.4
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666805
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPREQUEST
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_DHCP_REQUESTED_ADDRESS(50)=10.10.10.4
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666805
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_PARAMETER_REQUEST_LIST(55)=1 3 6 15 
+padding[87]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:55:04 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:55:04 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- ACK ------------------------
+nov. 27, 2020 11:55:04 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-request | Dirección IP asignada: 10.10.10.4 |
+nov. 27, 2020 11:55:04 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Tiempo de arrendamiento: 90000 |
+nov. 27, 2020 11:55:04 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 27, 2020 11:55:05 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:55:05 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.2(68)
+op=BOOTREPLY(2)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x3EAEC227
+secs=0
+flags=0x0
+ciaddr=10.10.10.4
+yiaddr=10.10.10.4
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666805
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPACK
+DHO_DHCP_LEASE_TIME(51)=90000
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_SUBNET_MASK(1)=255.255.255.192
+DHO_ROUTERS(3)=10.10.10.1 
+DHO_DOMAIN_NAME_SERVERS(6)=8.8.8.8 
+padding[26]=0000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:55:05 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: ----- PAQUETE INVÁLIDO ------
+nov. 27, 2020 11:55:06 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido invalido |
+nov. 27, 2020 11:55:06 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: -----------------------------
+nov. 27, 2020 11:56:49 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x87A5A742
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:56:49 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: No se pudo establecer una conexión con la red. ->121
+nov. 27, 2020 11:56:49 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x87A5A742
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:56:50 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:56:50 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 27, 2020 11:56:50 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 27, 2020 11:56:50 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 27, 2020 11:56:50 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 27, 2020 11:56:50 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:56:50 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x87A5A742
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:56:50 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: No se pudo establecer una conexión con la red. ->121
+nov. 27, 2020 11:56:50 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x87A5A742
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:56:51 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:56:51 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 27, 2020 11:56:51 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 27, 2020 11:56:51 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 27, 2020 11:56:51 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 27, 2020 11:56:51 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:56:52 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x87A5A742
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:56:53 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: No se pudo establecer una conexión con la red. ->121
+nov. 27, 2020 11:56:53 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x87A5A742
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:56:53 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:56:53 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 27, 2020 11:56:53 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 27, 2020 11:56:53 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 27, 2020 11:56:53 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 27, 2020 11:56:53 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 27, 2020 11:59:34 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0xBA067A2F
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 27, 2020 11:59:34 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: No se pudo establecer una conexión con la red. ->121
+nov. 27, 2020 11:59:34 P. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0xBA067A2F
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:01:57 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x076C4105
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:01:57 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: No se pudo establecer una conexión con la red. ->121
+nov. 28, 2020 12:01:57 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x076C4105
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:02:50 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: ServidorDHCP: java.net.BindException: Address already in use: Cannot bind ->54
+nov. 28, 2020 12:04:05 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0xDB768D06
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:04:06 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: No se pudo establecer una conexión con la red. ->121
+nov. 28, 2020 12:04:06 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0xDB768D06
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:04:07 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:04:07 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:04:07 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:04:07 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:04:07 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:04:07 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:04:07 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0xDB768D06
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:04:07 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: No se pudo establecer una conexión con la red. ->121
+nov. 28, 2020 12:04:07 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0xDB768D06
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:04:08 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:04:08 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:04:08 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:04:08 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:04:08 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:04:08 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:04:08 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.2(68)
+op=BOOTREPLY(2)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0xDB768D06
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=10.10.10.3
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPOFFER
+DHO_DHCP_LEASE_TIME(51)=90000
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_SUBNET_MASK(1)=255.255.255.192
+DHO_ROUTERS(3)=10.10.10.1 
+DHO_DOMAIN_NAME_SERVERS(6)=8.8.8.8 
+padding[26]=0000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:04:09 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: ----- PAQUETE INVÁLIDO ------
+nov. 28, 2020 12:04:09 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido invalido |
+nov. 28, 2020 12:04:09 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: -----------------------------
+nov. 28, 2020 12:04:09 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.2(68)
+op=BOOTREPLY(2)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0xDB768D06
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=10.10.10.3
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPOFFER
+DHO_DHCP_LEASE_TIME(51)=90000
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_SUBNET_MASK(1)=255.255.255.192
+DHO_ROUTERS(3)=10.10.10.1 
+DHO_DOMAIN_NAME_SERVERS(6)=8.8.8.8 
+padding[26]=0000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:04:09 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: ----- PAQUETE INVÁLIDO ------
+nov. 28, 2020 12:04:09 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido invalido |
+nov. 28, 2020 12:04:10 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: -----------------------------
+nov. 28, 2020 12:04:10 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0xDB768D06
+secs=0
+flags=0x0
+ciaddr=10.10.10.3
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPREQUEST
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_DHCP_REQUESTED_ADDRESS(50)=10.10.10.3
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_PARAMETER_REQUEST_LIST(55)=1 3 6 15 
+padding[87]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:04:10 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:04:10 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- ACK ------------------------
+nov. 28, 2020 12:04:10 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-request | Dirección IP asignada: 10.10.10.3 |
+nov. 28, 2020 12:04:10 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Tiempo de arrendamiento: 90000 |
+nov. 28, 2020 12:04:10 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:04:10 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:04:10 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.2(68)
+op=BOOTREPLY(2)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0xDB768D06
+secs=0
+flags=0x0
+ciaddr=10.10.10.3
+yiaddr=10.10.10.3
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPACK
+DHO_DHCP_LEASE_TIME(51)=90000
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_SUBNET_MASK(1)=255.255.255.192
+DHO_ROUTERS(3)=10.10.10.1 
+DHO_DOMAIN_NAME_SERVERS(6)=8.8.8.8 
+padding[26]=0000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:04:11 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: ----- PAQUETE INVÁLIDO ------
+nov. 28, 2020 12:04:11 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido invalido |
+nov. 28, 2020 12:04:11 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: -----------------------------
+nov. 28, 2020 12:05:35 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x9B5A0B3B
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:05:35 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: No se pudo establecer una conexión con la red. ->121
+nov. 28, 2020 12:05:35 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x9B5A0B3B
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:05:35 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:05:35 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:05:35 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:05:35 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:05:35 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:05:36 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:05:36 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x9B5A0B3B
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:05:36 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: No se pudo establecer una conexión con la red. ->121
+nov. 28, 2020 12:05:36 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x9B5A0B3B
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:05:37 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:05:37 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:05:37 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:05:37 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:05:37 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:05:37 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:05:39 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x9B5A0B3B
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:05:39 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: No se pudo establecer una conexión con la red. ->121
+nov. 28, 2020 12:05:39 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x9B5A0B3B
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:05:39 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:05:39 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:05:39 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:05:40 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:05:40 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:05:40 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:08:25 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: No se pudo establecer una conexión con la red. ->121
+nov. 28, 2020 12:08:25 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0xAF807761
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:08:25 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:08:25 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:08:25 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:08:26 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:08:26 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:08:26 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:08:26 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: No se pudo establecer una conexión con la red. ->121
+nov. 28, 2020 12:08:26 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0xAF807761
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:08:26 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:08:26 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:08:26 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:08:26 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:08:26 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:08:26 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:08:29 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0xAF807761
+secs=0
+flags=0x0
+ciaddr=10.10.10.3
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPREQUEST
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_DHCP_REQUESTED_ADDRESS(50)=10.10.10.3
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_PARAMETER_REQUEST_LIST(55)=1 3 6 15 
+padding[87]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:08:29 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:08:29 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- ACK ------------------------
+nov. 28, 2020 12:08:30 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-request | Dirección IP asignada: 10.10.10.3 |
+nov. 28, 2020 12:08:30 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Tiempo de arrendamiento: 90000 |
+nov. 28, 2020 12:08:30 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:08:30 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:08:30 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0xAF807761
+secs=0
+flags=0x0
+ciaddr=10.10.10.3
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPREQUEST
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_DHCP_REQUESTED_ADDRESS(50)=10.10.10.3
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_PARAMETER_REQUEST_LIST(55)=1 3 6 15 
+padding[87]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:08:30 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:08:30 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- ACK ------------------------
+nov. 28, 2020 12:08:30 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-request | Dirección IP asignada: 10.10.10.3 |
+nov. 28, 2020 12:08:30 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Tiempo de arrendamiento: 90000 |
+nov. 28, 2020 12:08:30 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:08:31 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:09:30 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: No se pudo establecer una conexión con la red. ->121
+nov. 28, 2020 12:14:19 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: No se pudo establecer una conexión con la red. ->121
+nov. 28, 2020 12:24:41 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x636DEA19
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:24:42 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:24:42 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:24:42 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:24:42 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.2 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:24:42 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:24:42 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:24:42 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x636DEA19
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:24:42 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:24:43 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:24:43 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:24:43 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.2 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:24:43 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:24:43 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:24:43 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x636DEA19
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:24:43 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:24:43 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:24:43 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:24:43 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.2 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:24:44 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:24:44 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:24:44 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x636DEA19
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:24:44 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:24:44 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:24:44 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:24:44 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.2 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:24:44 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:24:44 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:25:08 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x5822E142
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:25:08 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:25:09 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:25:09 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:25:09 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.2 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:25:09 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:25:09 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:25:09 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x5822E142
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:25:09 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:25:09 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:25:09 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:25:09 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.2 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:25:09 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:25:09 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:25:12 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x5822E142
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:25:12 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:25:12 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:25:12 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:25:12 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.2 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:25:12 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:25:12 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:25:12 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x5822E142
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:25:13 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:25:13 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:25:13 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:25:13 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.2 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:25:13 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:25:13 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:26:14 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0xD821B02F
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:26:14 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:26:14 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:26:14 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:26:14 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.2 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:26:14 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:26:14 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:26:14 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0xD821B02F
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:26:15 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:26:15 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:26:15 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:26:15 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.2 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:26:15 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:26:15 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:26:15 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0xD821B02F
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:26:15 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:26:15 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:26:15 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:26:15 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.2 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:26:15 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:26:15 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:26:15 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0xD821B02F
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:26:16 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:26:16 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:26:16 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:26:16 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.2 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:26:16 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:26:16 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:26:18 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0xD821B02F
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:26:18 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:26:18 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:26:18 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:26:18 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.2 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:26:18 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:26:18 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:26:18 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0xD821B02F
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:26:19 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:26:19 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:26:19 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:26:19 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.2 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:26:19 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:26:19 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:26:36 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0xEA110D1F
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:26:37 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:26:37 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:26:37 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:26:37 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.2 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:26:37 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:26:37 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:26:37 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0xEA110D1F
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:26:37 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:26:37 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:26:37 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:26:37 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.2 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:26:37 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:26:37 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:26:37 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0xEA110D1F
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:26:38 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:26:38 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:26:38 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:26:38 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.2 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:26:38 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:26:38 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:26:38 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0xEA110D1F
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:26:39 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:26:39 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:26:39 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:26:39 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.2 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:26:39 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:26:39 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:26:41 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0xEA110D1F
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:26:41 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:26:41 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:26:42 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:26:42 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.2 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:26:42 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:26:42 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:26:42 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0xEA110D1F
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:26:42 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:26:42 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:26:43 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:26:43 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.2 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:26:43 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:26:43 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:26:52 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0xBF542C24
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:26:53 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:26:53 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:26:53 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:26:53 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.2 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:26:53 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:26:53 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:26:53 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0xBF542C24
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:26:54 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:26:54 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:26:54 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:26:54 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.2 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:26:54 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:26:54 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:26:54 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0xBF542C24
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:26:54 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:26:55 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:26:55 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:26:55 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.2 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:26:55 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:26:55 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:26:55 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0xBF542C24
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:26:55 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:26:55 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:26:55 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:26:55 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.2 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:26:55 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:26:55 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:29:34 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x69D90808
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:29:35 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:29:35 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:29:35 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:29:35 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.2 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:29:35 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:29:35 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:29:35 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x69D90808
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:29:36 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:29:36 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:29:36 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:29:36 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.2 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:29:36 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:29:36 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:29:36 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x69D90808
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:29:37 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:29:37 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:29:37 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:29:37 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.2 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:29:37 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:29:37 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:29:37 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x69D90808
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:29:37 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:29:37 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:29:37 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:29:37 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.2 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:29:37 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:29:38 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:33:52 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x11EFA00A
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:33:53 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:33:53 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:33:53 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:33:53 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:33:53 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:33:53 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:33:53 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x11EFA00A
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:33:53 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:33:53 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:33:53 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:33:53 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:33:53 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:33:53 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:33:54 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x11EFA00A
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:33:54 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:33:54 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:33:54 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:33:54 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:33:54 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:33:54 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:33:54 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x11EFA00A
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:33:55 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:33:55 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:33:55 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:33:55 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:33:55 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:33:55 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:33:56 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x11EFA00A
+secs=0
+flags=0x0
+ciaddr=10.10.10.3
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPREQUEST
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_DHCP_REQUESTED_ADDRESS(50)=10.10.10.3
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_PARAMETER_REQUEST_LIST(55)=1 3 6 15 
+padding[87]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:33:56 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:33:56 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- ACK ------------------------
+nov. 28, 2020 12:33:56 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-request | Dirección IP asignada: 10.10.10.3 |
+nov. 28, 2020 12:33:56 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Tiempo de arrendamiento: 90000 |
+nov. 28, 2020 12:33:57 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:33:57 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:34:08 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.3(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x00000000
+secs=-28577
+flags=0x0
+ciaddr=10.10.10.3
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPRELEASE
+DHO_DHCP_PARAMETER_REQUEST_LIST(55)=1 3 
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_DHCP_REQUESTED_ADDRESS(50)=10.10.10.3
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[89]=0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:34:08 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------RELEASE--------------------------------------
+nov. 28, 2020 12:34:08 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Liberación del Ip cliente 10.10.10.3 realizado correctamente|
+nov. 28, 2020 12:34:08 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: -----------------------------------------------------------------------------------
+nov. 28, 2020 12:35:10 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0xB160471B
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666805
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666805
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:35:10 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:35:10 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:35:10 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:05:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:35:10 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:35:10 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:35:10 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:35:10 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0xB160471B
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666805
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666805
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:35:11 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:35:11 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:35:11 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:05:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:35:11 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:35:11 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:35:11 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:35:11 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0xB160471B
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666805
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666805
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:35:11 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:35:11 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:35:12 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:05:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:35:12 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:35:12 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:35:12 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:35:12 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0xB160471B
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666805
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666805
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:35:12 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:35:12 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:35:13 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:05:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:35:13 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:35:13 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:35:13 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:35:14 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0xB160471B
+secs=0
+flags=0x0
+ciaddr=10.10.10.3
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666805
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPREQUEST
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_DHCP_REQUESTED_ADDRESS(50)=10.10.10.3
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666805
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_PARAMETER_REQUEST_LIST(55)=1 3 6 15 
+padding[87]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:35:14 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:35:14 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- ACK ------------------------
+nov. 28, 2020 12:35:14 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-request | Dirección IP asignada: 10.10.10.3 |
+nov. 28, 2020 12:35:14 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Tiempo de arrendamiento: 90000 |
+nov. 28, 2020 12:35:14 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:35:14 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:35:15 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0xB160471B
+secs=0
+flags=0x0
+ciaddr=10.10.10.3
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666805
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPREQUEST
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_DHCP_REQUESTED_ADDRESS(50)=10.10.10.3
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666805
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_PARAMETER_REQUEST_LIST(55)=1 3 6 15 
+padding[87]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:35:15 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:35:15 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- ACK ------------------------
+nov. 28, 2020 12:35:15 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-request | Dirección IP asignada: 10.10.10.3 |
+nov. 28, 2020 12:35:15 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Tiempo de arrendamiento: 90000 |
+nov. 28, 2020 12:35:15 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:35:15 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:35:30 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x3B74AE01
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:35:30 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:35:30 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:35:30 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:35:30 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.4 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:35:30 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:35:30 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:35:30 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x3B74AE01
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:35:31 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:35:31 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:35:31 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:35:31 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.4 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:35:31 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:35:31 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:35:31 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x3B74AE01
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:35:31 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:35:31 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:35:31 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:35:32 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.4 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:35:32 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:35:32 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:35:32 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x3B74AE01
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:35:32 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:35:32 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:35:32 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:04:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:35:32 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.4 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:35:33 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:35:33 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:35:34 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0x3B74AE01
+secs=0
+flags=0x0
+ciaddr=10.10.10.4
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666804
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPREQUEST
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_DHCP_REQUESTED_ADDRESS(50)=10.10.10.4
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666804
+DHO_HOST_NAME(12)="PC11"
+DHO_DHCP_PARAMETER_REQUEST_LIST(55)=1 3 6 15 
+padding[87]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:35:34 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:35:34 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- ACK ------------------------
+nov. 28, 2020 12:35:34 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-request | Dirección IP asignada: 10.10.10.4 |
+nov. 28, 2020 12:35:34 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Tiempo de arrendamiento: 90000 |
+nov. 28, 2020 12:35:34 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:35:34 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:35:48 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.3(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0x00000000
+secs=-28577
+flags=0x0
+ciaddr=10.10.10.3
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666805
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPRELEASE
+DHO_DHCP_PARAMETER_REQUEST_LIST(55)=1 3 
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_DHCP_REQUESTED_ADDRESS(50)=10.10.10.3
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666805
+padding[89]=0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:35:48 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------RELEASE--------------------------------------
+nov. 28, 2020 12:35:48 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Liberación del Ip cliente 10.10.10.3 realizado correctamente|
+nov. 28, 2020 12:35:48 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: -----------------------------------------------------------------------------------
+nov. 28, 2020 12:35:51 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0xF27B6740
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666805
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666805
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:35:51 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:35:51 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:35:51 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:05:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:35:51 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:35:51 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:35:51 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:35:52 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0xF27B6740
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666805
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666805
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:35:52 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:35:52 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:35:52 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:05:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:35:52 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:35:52 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:35:52 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:35:52 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=0.0.0.0(68)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=0
+xid=0xF27B6740
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=0.0.0.0
+chaddr=0x005079666805
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666805
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:35:52 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:35:53 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:35:53 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:05:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:35:53 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:35:53 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:35:53 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:35:53 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0xF27B6740
+secs=0
+flags=0x0
+ciaddr=0.0.0.0
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666805
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPDISCOVER
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666805
+padding[105]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:35:53 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:35:53 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- OFFER ----------------------
+nov. 28, 2020 12:35:53 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-Discover | MAC: 00:50:79:66:68:05:00:00:00:00:00:00:00:00:00:00 |
+nov. 28, 2020 12:35:53 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | IP ofrecida: 10.10.10.3 | Tiempo de arrendamiento: 90000s |
+nov. 28, 2020 12:35:53 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:35:53 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:35:55 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0xF27B6740
+secs=0
+flags=0x0
+ciaddr=10.10.10.3
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666805
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPREQUEST
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_DHCP_REQUESTED_ADDRESS(50)=10.10.10.3
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666805
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_PARAMETER_REQUEST_LIST(55)=1 3 6 15 
+padding[87]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:35:56 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:35:56 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- ACK ------------------------
+nov. 28, 2020 12:35:56 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-request | Dirección IP asignada: 10.10.10.3 |
+nov. 28, 2020 12:35:56 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Tiempo de arrendamiento: 90000 |
+nov. 28, 2020 12:35:56 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:35:56 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:35:56 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: DHCP Packet
+comment=
+address=10.10.10.1(67)
+op=BOOTREQUEST(1)
+htype=HTYPE_ETHER(1)
+hlen=6
+hops=1
+xid=0xF27B6740
+secs=0
+flags=0x0
+ciaddr=10.10.10.3
+yiaddr=0.0.0.0
+siaddr=0.0.0.0
+giaddr=10.10.10.1
+chaddr=0x005079666805
+sname=
+file=
+Options follows:
+DHO_DHCP_MESSAGE_TYPE(53)=DHCPREQUEST
+DHO_DHCP_SERVER_IDENTIFIER(54)=10.10.10.2
+DHO_DHCP_REQUESTED_ADDRESS(50)=10.10.10.3
+DHO_DHCP_CLIENT_IDENTIFIER(61)=0x01005079666805
+DHO_HOST_NAME(12)="PC21"
+DHO_DHCP_PARAMETER_REQUEST_LIST(55)=1 3 6 15 
+padding[87]=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ->116
+nov. 28, 2020 12:35:56 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  
+nov. 28, 2020 12:35:56 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------- ACK ------------------------
+nov. 28, 2020 12:35:56 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Paquete recibido: DHCP-request | Dirección IP asignada: 10.10.10.3 |
+nov. 28, 2020 12:35:56 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: | Tiempo de arrendamiento: 90000 |
+nov. 28, 2020 12:35:56 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN: --------------------------------------------------
+nov. 28, 2020 12:35:56 A. M. auxiliares.LoggerS mensaje
+INFORMACIÓN:  

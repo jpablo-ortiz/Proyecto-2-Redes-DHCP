@@ -20,8 +20,7 @@ import entidades.IpArriendo;
 import entidades.PaqueteDHCP;
 import entidades.RedDHCP;
 
-public class ServidorDHCP
-{
+public class ServidorDHCP {
 
     private static final int PUERTO_CLIENTE = 68;
     private static final int PUERTO_SERVIDOR = 67;
@@ -33,30 +32,23 @@ public class ServidorDHCP
     private static Queue<PaqueteDHCP> centroPaquetes;
     private static InetAddress ipServidor;
 
-    ServidorDHCP()
-    {
+    ServidorDHCP() {
         DatagramSocket socket;
-        try
-        {
+        try {
             socket = new DatagramSocket(PUERTO_SERVIDOR);
             DatagramPacket paquete = new DatagramPacket(new byte[socket.getSendBufferSize()],
                     socket.getSendBufferSize());
 
-            while (true)
-            {
+            while (true) {
                 socket.receive(paquete);
 
                 PaqueteDHCP dhcp = new PaqueteDHCP(paquete);
                 centroPaquetes.add(dhcp);
             }
-        }
-        catch (SocketException ex)
-        {
+        } catch (SocketException ex) {
             LoggerS.mensaje(ServidorDHCP.class.getName() + ": " + ex + " ->54");
             // Logger.getLogger(ServidorDHCP.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        catch (IOException ex)
-        {
+        } catch (IOException ex) {
             LoggerS.mensaje(ServidorDHCP.class.getName() + ": " + ex + " ->59");
             // Logger.getLogger(ServidorDHCP.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -65,60 +57,46 @@ public class ServidorDHCP
     /**
      * @param args
      */
-    public static void main(String[] args)
-    {
-        try
-        {
+    public static void main(String[] args) {
+        try {
             ipServidor = Inet4Address.getLocalHost();
             listaRedes = Auxiliares.obtenerRedesPorCSV();
             centroPaquetes = new LinkedList<>();
 
-            new Thread(new Runnable()
-            {
+            new Thread(new Runnable() {
                 @Override
-                public void run()
-                {
+                public void run() {
                     procesarSolicitudes();
                 }
             }).start();
 
             ServidorDHCP servidorDhcp = new ServidorDHCP();
 
-        }
-        catch (UnknownHostException ex)
-        {
+        } catch (UnknownHostException ex) {
             LoggerS.mensaje(ServidorDHCP.class.getName() + ": " + ex + " ->89");
             // LoggerS.getLogger(ServidorDHCP.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 
-    public static void procesarSolicitudes()
-    {
+    public static void procesarSolicitudes() {
 
         PaqueteDHCP paqueteDhcpRecibio;
 
         DatagramSocket socket;
         DatagramPacket paquete;
         PaqueteDHCP paqueteDhcpAEnviar;
-        try
-        {
+        try {
             socket = new DatagramSocket(PUERTO_CLIENTE);
             paqueteDhcpAEnviar = new PaqueteDHCP();
 
-            while (true)
-            {
-                try
-                {
+            while (true) {
+                try {
                     sleep(SEGUNDO / 2);
-                    terminarProcesoPaqueteRecibido:
-                    while (!centroPaquetes.isEmpty())
-                    {
+                    terminarProcesoPaqueteRecibido: while (!centroPaquetes.isEmpty()) {
                         paqueteDhcpRecibio = centroPaquetes.poll();
-                        LoggerS.mensaje(paqueteDhcpRecibio.toString() + " ->116"); // Guardar informacion paquete en el log
 
                         RedDHCP redActual = ObtenerRed(paqueteDhcpRecibio.getIpAgenteRelay());
-                        if (redActual == null)
-                        {
+                        if (redActual == null) {
                             LoggerS.mensaje("No se pudo establecer una conexión con la red." + " ->121");
                             continue terminarProcesoPaqueteRecibido;
                         }
@@ -132,62 +110,60 @@ public class ServidorDHCP
                         // contrario uno
                         // de tipo NACK y por ultimo se envia este paquete.
                         // -En caso de ser tipo RELEASE.
-                        switch (paqueteDhcpRecibio.getDHCPMessageType())
-                        {
+                        switch (paqueteDhcpRecibio.getDHCPMessageType()) {
 
                             case DHCPConstants.DHCPDISCOVER:
+                                LoggerS.mensaje(paqueteDhcpRecibio.toString() + " ->116"); // Guardar informacion paquete en el
+
                                 byte[] ip = redActual.ipOfertado(paqueteDhcpRecibio.getMacCliente());
-                                if (ip == null)
-                                {
+                                if (ip == null) {
                                     LoggerS.mensaje(
                                             "Error en la construcción de DHCP-Discover: No se encontró una ip para la MAC "
-                                            + Auxiliares.macToString(paqueteDhcpRecibio.getMacCliente()));
+                                                    + Auxiliares.macToString(paqueteDhcpRecibio.getMacCliente()));
                                     continue terminarProcesoPaqueteRecibido;
                                 }
 
-                                paqueteDhcpAEnviar.construirPaqueteOffer(paqueteDhcpRecibio, ip, redActual.getTiempoArrendamiento(), null, ipServidor, redActual.getMascara(), redActual.getGateway(), redActual.getServidorDNS());
+                                paqueteDhcpAEnviar.construirPaqueteOffer(paqueteDhcpRecibio, ip,
+                                        redActual.getTiempoArrendamiento(), null, ipServidor, redActual.getMascara(),
+                                        redActual.getGateway(), redActual.getServidorDNS());
                                 break;
 
                             case DHCPConstants.DHCPREQUEST:
-                                IpArriendo ipAgregada = null;
-                                if (Auxiliares.ipToString(paqueteDhcpRecibio.getIpCliente()).equals(IP_VACIA))
-                                {
-                                    IpArriendo ipSolicitada = redActual
-                                            .verificarIp(paqueteDhcpRecibio.getIpSolicitada());
+                                LoggerS.mensaje(paqueteDhcpRecibio.toString() + " ->116"); // Guardar informacion paquete en el
 
+                                IpArriendo ipAgregada = null;
+
+                                IpArriendo ipSolicitada = redActual.verificarIp(paqueteDhcpRecibio.getIpSolicitada());
+                                
+                                if (!ipSolicitada.esArrendado()) {
                                     if (!Auxiliares.compararMacs(ipSolicitada.getMac(),
                                             paqueteDhcpRecibio.getMacCliente()) && ipSolicitada.esArrendado()
-                                            && ipSolicitada != null)
-                                    {
+                                            && ipSolicitada != null) {
                                         paqueteDhcpAEnviar.construirPaqueteNACK(paqueteDhcpRecibio, null, ipServidor);
                                         break;
-                                    }
-                                    else
-                                    {
+                                    } else {
                                         ipAgregada = redActual.agregarIp(paqueteDhcpRecibio.getIpSolicitada());
-                                        if (ipAgregada == null)
-                                        {
+                                        if (ipAgregada == null) {
                                             paqueteDhcpAEnviar.construirPaqueteNACK(paqueteDhcpRecibio, null,
                                                     ipServidor);
                                             break;
-                                        }
-                                        else
-                                        {
+                                        } else {
                                             redActual.asignarIp(ipAgregada, redActual.getTiempoArrendamiento(),
                                                     paqueteDhcpRecibio.getMacCliente());
                                         }
                                     }
-                                }
-                                else
-                                {
-                                    redActual.renovarTiempoArrendamiento(paqueteDhcpRecibio.getIpCliente(),
+                                } else {
+                                    ipAgregada = redActual.renovarTiempoArrendamiento(paqueteDhcpRecibio.getIpCliente(),
                                             redActual.getTiempoArrendamiento());
                                 }
                                 paqueteDhcpAEnviar.construirPaqueteACK(paqueteDhcpRecibio, ipAgregada.getIp(),
-                                        redActual.getTiempoArrendamiento(), null, ipServidor, redActual.getMascara(), redActual.getGateway(), redActual.getServidorDNS());
+                                        redActual.getTiempoArrendamiento(), null, ipServidor, redActual.getMascara(),
+                                        redActual.getGateway(), redActual.getServidorDNS());
                                 break;
 
                             case DHCPConstants.DHCPRELEASE:
+                                LoggerS.mensaje(paqueteDhcpRecibio.toString() + " ->116"); // Guardar informacion paquete en el
+
                                 LoggerS.mensaje(
                                         "--------------------------------------RELEASE--------------------------------------");
                                 LoggerS.mensaje("| Liberación del Ip cliente "
@@ -199,24 +175,17 @@ public class ServidorDHCP
                                 continue terminarProcesoPaqueteRecibido;
 
                             default:
-                                LoggerS.mensaje("----- PAQUETE INVÁLIDO ------");
-                                LoggerS.mensaje("| Paquete recibido invalido |");
-                                LoggerS.mensaje("-----------------------------");
                                 continue terminarProcesoPaqueteRecibido;
                         }
                         paquete = new DatagramPacket(paqueteDhcpAEnviar.getBuffer(), paqueteDhcpAEnviar.getBufferSize(),
                                 InetAddress.getByName(BROADCAST), PUERTO_SERVIDOR);
                         socket.send(paquete);
                     }
-                }
-                catch (InterruptedException | IOException ex)
-                {
+                } catch (InterruptedException | IOException ex) {
                     LoggerS.mensaje(ServidorDHCP.class.getName() + ": " + ex + " ->214");
                 }
             }
-        }
-        catch (SocketException e)
-        {
+        } catch (SocketException e) {
             e.printStackTrace();
         }
     }
@@ -225,29 +194,24 @@ public class ServidorDHCP
      * Se realiza un for para recoger las redes que se tengan y de esa forma se
      * compara si el gateway es el de la red actual
      *
-     * @param dirGateway direccion gateway actual en el cual se esta encontrando
-     * en la lista. si la encuentra retorna esa red sino retorna null
+     * @param dirGateway direccion gateway actual en el cual se esta encontrando en
+     *                   la lista. si la encuentra retorna esa red sino retorna null
      * @return RedDHCP
      */
-    private static RedDHCP ObtenerRed(byte[] ipAgenteRelay)
-    {
-        if(Auxiliares.ipToString(ipAgenteRelay).equals(IP_VACIA))
-        {
-            for (int i = 0; i < listaRedes.size(); i++)
-            {
+    private static RedDHCP ObtenerRed(byte[] ipAgenteRelay) {
+        if (Auxiliares.ipToString(ipAgenteRelay).equals(IP_VACIA)) {
+            for (int i = 0; i < listaRedes.size(); i++) {
 
-                if (listaRedes.get(i).ipDentroDelRango(ServidorDHCP.ipServidor.getAddress()))
-                {
-                    listaRedes.get(i).agregarIp(ServidorDHCP.ipServidor.getAddress());
+                if (listaRedes.get(i).ipDentroDelRango(ServidorDHCP.ipServidor.getAddress())) {
+                    //IpArriendo ipServ = listaRedes.get(i).verificarIp(ServidorDHCP.ipServidor.getAddress());
+                    listaRedes.get(i).asignarIp(listaRedes.get(i).agregarIp(ServidorDHCP.ipServidor.getAddress()), 90000000, new byte[]{0,0,0,0,0,0});
                     return listaRedes.get(i);
                 }
             }
         }
 
-        for (int i = 0; i < listaRedes.size(); i++)
-        {
-            if (Auxiliares.compararIps(listaRedes.get(i).getGateway(), ipAgenteRelay))
-            {
+        for (int i = 0; i < listaRedes.size(); i++) {
+            if (Auxiliares.compararIps(listaRedes.get(i).getGateway(), ipAgenteRelay)) {
                 return listaRedes.get(i);
             }
         }

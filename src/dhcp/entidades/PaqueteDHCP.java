@@ -64,13 +64,16 @@ public class PaqueteDHCP {
 
     /**
      * @param request
-     * @param offeredAddress
+     * @param ipOfrecida
      * @param leaseTime
      * @param message
-     * @param options
      * @param IPServidor
+     * @param mascara
+     * @param gateway
+     * @param dns
      */
-    public void construirPaqueteACK(PaqueteDHCP request, byte[] ipOfrecida, int leaseTime, String message, InetAddress IPServidor, byte[] mascara, byte[] gateway, byte[] dns) {
+    public void construirPaqueteACK(PaqueteDHCP request, byte[] ipOfrecida, int leaseTime, String message,
+            InetAddress IPServidor, byte[] mascara, byte[] gateway, byte[] dns) {
 
         InetAddress offeredAddress = null;
         DHCPOption[] opciones = new DHCPOption[3];

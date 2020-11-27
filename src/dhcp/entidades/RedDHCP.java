@@ -7,8 +7,7 @@ import java.util.Objects;
 
 import auxiliares.Auxiliares;
 
-public class RedDHCP
-{
+public class RedDHCP {
 
     private List<IpArriendo> listaIPsAsignables;
     private byte[] servidorDNS;
@@ -24,8 +23,7 @@ public class RedDHCP
     private boolean rangoCompletado;// bool para rectificar si aún hay disponible ip en red
 
     public RedDHCP(byte[] servidorDNS, byte[] gateway, byte[] mascara, byte[] ipRangoInicial, byte[] ipRangoFinal,
-            int tiempoArrendamiento)
-    {
+            int tiempoArrendamiento) {
         this.listaIPsAsignables = new ArrayList<>();
         this.servidorDNS = servidorDNS;
         this.gateway = gateway;
@@ -33,6 +31,7 @@ public class RedDHCP
         this.ipRangoInicial = ipRangoInicial;
         this.ipRangoFinal = ipRangoFinal;
         this.ipActual = ipRangoInicial.clone();
+        ipActual[3] = (byte) (Auxiliares.unsignedToBytes(ipActual[3]) + 1);
         this.rangoCompletado = false;
         this.tiempoArrendamiento = tiempoArrendamiento;
     }
@@ -41,59 +40,47 @@ public class RedDHCP
      * @param macCliente
      * @return byte[]
      */
-    public byte[] ipOfertado(byte[] macCliente)
-    {
+    public byte[] ipOfertado(byte[] macCliente) {
         IpArriendo ipArrendamientoActual;
 
-        for (int i = 0; i < listaIPsAsignables.size(); i++)
-        {
+        for (int i = 0; i < listaIPsAsignables.size(); i++) {
             ipArrendamientoActual = listaIPsAsignables.get(i);
 
-            if (Auxiliares.compararMacs(macCliente, ipArrendamientoActual.getMac()))
-            {
+            if (Auxiliares.compararMacs(macCliente, ipArrendamientoActual.getMac())) {
                 return ipArrendamientoActual.getIp();
             }
         }
 
-        for (int i = 0; i < listaIPsAsignables.size(); i++)
-        {
+        for (int i = 0; i < listaIPsAsignables.size(); i++) {
             ipArrendamientoActual = listaIPsAsignables.get(i);
 
-            if (!ipArrendamientoActual.esArrendado())
-            {
+            if (!ipArrendamientoActual.esArrendado()) {
                 ipArrendamientoActual.setMac(macCliente);
                 return ipArrendamientoActual.getIp();
             }
         }
 
-        if (rangoCompletado)
-        {
+        if (rangoCompletado) {
             return null;
-        }
-        else if (Auxiliares.compararIps(ipActual, ipRangoFinal))
-        {
+        } else if (Auxiliares.compararIps(ipActual, ipRangoFinal)) {
             rangoCompletado = true;
         }
 
         ipArrendamientoActual = new IpArriendo(ipActual.clone(), macCliente);
 
         boolean siguienteIp = false;
-        for (int i = ipActual.length - 1; i >= 0; i--)
-        {
-            if (i != 3)
-            {
+        for (int i = ipActual.length - 1; i >= 0; i--) {
+            if (i != 3) {
                 ipActual[i + 1] = 0;
             }
 
-            if (ipActual[i] < Auxiliares.unsignedToBytes((byte) 255) && !siguienteIp)
-            {
+            if (ipActual[i] < Auxiliares.unsignedToBytes((byte) 255) && !siguienteIp) {
                 ipActual[i] = (byte) (Auxiliares.unsignedToBytes(ipActual[i]) + 1);
                 siguienteIp = true;
                 break;
             }
         }
-        if (siguienteIp == false)
-        {
+        if (siguienteIp == false) {
             rangoCompletado = true;
             return null;
         }
@@ -106,16 +93,13 @@ public class RedDHCP
      * @param ipCliente
      * @return IpArriendo
      */
-    public IpArriendo verificarIp(byte[] ipCliente)
-    {
+    public IpArriendo verificarIp(byte[] ipCliente) {
         IpArriendo ipArrendamientoActual;
 
-        for (int i = 0; i < listaIPsAsignables.size(); i++)
-        {
+        for (int i = 0; i < listaIPsAsignables.size(); i++) {
             ipArrendamientoActual = listaIPsAsignables.get(i);
 
-            if (Auxiliares.compararIps(ipArrendamientoActual.getIp(), ipCliente))
-            {
+            if (Auxiliares.compararIps(ipArrendamientoActual.getIp(), ipCliente)) {
                 return ipArrendamientoActual;
             }
         }
@@ -128,18 +112,13 @@ public class RedDHCP
      */
     // Se agrega a la lista de Ips si la ip esta disponible
     // Se retorna la ip.
-    public IpArriendo agregarIp(byte[] ip)
-    {
+    public IpArriendo agregarIp(byte[] ip) {
         IpArriendo temp = verificarIp(ip);
-        if (temp == null)
-        {
-            if (ipDentroDelRango(ip))
-            {
+        if (temp == null) {
+            if (ipDentroDelRango(ip)) {
                 temp = new IpArriendo(ip);
                 listaIPsAsignables.add(temp);
-            }
-            else
-            {
+            } else {
                 return null;
             }
 
@@ -147,8 +126,8 @@ public class RedDHCP
         return temp;
     }
 
-    public boolean ipDentroDelRango(byte[] ip)
-    {
+    public boolean ipDentroDelRango(byte[] ip) {
+
         ipRangoInicialLong = Auxiliares.ipALong(this.ipRangoInicial);
         ipRangoFinalLong = Auxiliares.ipALong(this.ipRangoFinal);
         ipTemp = Auxiliares.ipALong(ip);
@@ -164,8 +143,7 @@ public class RedDHCP
      * @param tiempoArrendamiento
      * @param mac
      */
-    public void asignarIp(IpArriendo ip, int tiempoArrendamiento, byte[] mac)
-    {
+    public void asignarIp(IpArriendo ip, int tiempoArrendamiento, byte[] mac) {
         ip.setMac(mac);
         ip.setArrendado(true);
         ip.setTiempoInicio(new GregorianCalendar());
@@ -176,16 +154,13 @@ public class RedDHCP
     /**
      * @param ipCliente
      */
-    public void liberarIp(byte[] ipCliente)
-    {
+    public void liberarIp(byte[] ipCliente) {
         IpArriendo ipArrendamientoActual;
 
-        for (int i = 0; i < listaIPsAsignables.size(); i++)
-        {
+        for (int i = 0; i < listaIPsAsignables.size(); i++) {
             ipArrendamientoActual = listaIPsAsignables.get(i);
 
-            if (Auxiliares.compararIps(ipArrendamientoActual.getIp(), ipCliente))
-            {
+            if (Auxiliares.compararIps(ipArrendamientoActual.getIp(), ipCliente)) {
                 ipArrendamientoActual.setArrendado(false);
                 break;
             }
@@ -197,30 +172,25 @@ public class RedDHCP
      * @param tiempoArrendamiento
      * @return boolean
      */
-    public boolean renovarTiempoArrendamiento(byte[] ipCliente, int tiempoArrendamiento)
-    {
+    public IpArriendo renovarTiempoArrendamiento(byte[] ipCliente, int tiempoArrendamiento) {
         IpArriendo temp = verificarIp(ipCliente);
-        if (temp == null)
-        {
-            return false;
+        if (temp == null) {
+            return null;
         }
         temp.setTiempoFinal(new GregorianCalendar());
         temp.getTiempoFinal().add(GregorianCalendar.SECOND, tiempoArrendamiento);
-        return true;
+        return temp;
     }
 
-    public void verificarCaducidadLease()
-    {
+    public void verificarCaducidadLease() {
         IpArriendo ipArrendamientoActual;
         GregorianCalendar horaActual;
 
-        for (int i = 0; i < listaIPsAsignables.size(); i++)
-        {
+        for (int i = 0; i < listaIPsAsignables.size(); i++) {
             ipArrendamientoActual = listaIPsAsignables.get(i);
             horaActual = new GregorianCalendar();
 
-            if (horaActual.after(ipArrendamientoActual.getTiempoFinal()))
-            {
+            if (horaActual.after(ipArrendamientoActual.getTiempoFinal())) {
                 ipArrendamientoActual.setArrendado(false);
             }
             break;
@@ -230,152 +200,133 @@ public class RedDHCP
     /**
      * @return List<IpArriendo>
      */
-    public List<IpArriendo> getListaIPsAsignables()
-    {
+    public List<IpArriendo> getListaIPsAsignables() {
         return this.listaIPsAsignables;
     }
 
     /**
      * @param listaIPsAsignables
      */
-    public void setListaIPsAsignables(List<IpArriendo> listaIPsAsignables)
-    {
+    public void setListaIPsAsignables(List<IpArriendo> listaIPsAsignables) {
         this.listaIPsAsignables = listaIPsAsignables;
     }
 
     /**
      * @return byte[]
      */
-    public byte[] getServidorDNS()
-    {
+    public byte[] getServidorDNS() {
         return this.servidorDNS;
     }
 
     /**
      * @param servidorDNS
      */
-    public void setServidorDNS(byte[] servidorDNS)
-    {
+    public void setServidorDNS(byte[] servidorDNS) {
         this.servidorDNS = servidorDNS;
     }
 
     /**
      * @return byte[]
      */
-    public byte[] getGateway()
-    {
+    public byte[] getGateway() {
         return this.gateway;
     }
 
     /**
      * @param gateway
      */
-    public void setGateway(byte[] gateway)
-    {
+    public void setGateway(byte[] gateway) {
         this.gateway = gateway;
     }
 
     /**
      * @return byte[]
      */
-    public byte[] getMascara()
-    {
+    public byte[] getMascara() {
         return this.mascara;
     }
 
     /**
      * @param mascara
      */
-    public void setMascara(byte[] mascara)
-    {
+    public void setMascara(byte[] mascara) {
         this.mascara = mascara;
     }
 
     /**
      * @return int
      */
-    public int getTiempoArrendamiento()
-    {
+    public int getTiempoArrendamiento() {
         return this.tiempoArrendamiento;
     }
 
     /**
      * @param tiempoArrendamiento
      */
-    public void setTiempoArrendamiento(int tiempoArrendamiento)
-    {
+    public void setTiempoArrendamiento(int tiempoArrendamiento) {
         this.tiempoArrendamiento = tiempoArrendamiento;
     }
 
     /**
      * @return byte[]
      */
-    public byte[] getIpRangoInicial()
-    {
+    public byte[] getIpRangoInicial() {
         return this.ipRangoInicial;
     }
 
     /**
      * @param ipRangoInicial
      */
-    public void setIpRangoInicial(byte[] ipRangoInicial)
-    {
+    public void setIpRangoInicial(byte[] ipRangoInicial) {
         this.ipRangoInicial = ipRangoInicial;
     }
 
     /**
      * @return byte[]
      */
-    public byte[] getIpRangoFinal()
-    {
+    public byte[] getIpRangoFinal() {
         return this.ipRangoFinal;
     }
 
     /**
      * @param ipRangoFinal
      */
-    public void setIpRangoFinal(byte[] ipRangoFinal)
-    {
+    public void setIpRangoFinal(byte[] ipRangoFinal) {
         this.ipRangoFinal = ipRangoFinal;
     }
 
     /**
      * @return byte[]
      */
-    public byte[] getIpActual()
-    {
+    public byte[] getIpActual() {
         return this.ipActual;
     }
 
     /**
      * @param ipActual
      */
-    public void setIpActual(byte[] ipActual)
-    {
+    public void setIpActual(byte[] ipActual) {
         this.ipActual = ipActual;
     }
 
     /**
      * @return boolean
      */
-    public boolean isRangoCompletado()
-    {
+    public boolean isRangoCompletado() {
         return this.rangoCompletado;
     }
 
     /**
      * @return boolean
      */
-    public boolean getRangoCompletado()
-    {
+    public boolean getRangoCompletado() {
         return this.rangoCompletado;
     }
 
     /**
      * @param rangoCompletado
      */
-    public void setRangoCompletado(boolean rangoCompletado)
-    {
+    public void setRangoCompletado(boolean rangoCompletado) {
         this.rangoCompletado = rangoCompletado;
     }
 
@@ -384,14 +335,11 @@ public class RedDHCP
      * @return boolean
      */
     @Override
-    public boolean equals(Object o)
-    {
-        if (o == this)
-        {
+    public boolean equals(Object o) {
+        if (o == this) {
             return true;
         }
-        if (!(o instanceof RedDHCP))
-        {
+        if (!(o instanceof RedDHCP)) {
             return false;
         }
         RedDHCP redDHCP = (RedDHCP) o;
@@ -407,8 +355,7 @@ public class RedDHCP
      * @return int
      */
     @Override
-    public int hashCode()
-    {
+    public int hashCode() {
         return Objects.hash(listaIPsAsignables, servidorDNS, gateway, mascara, tiempoArrendamiento, ipRangoInicial,
                 ipRangoFinal, ipActual, rangoCompletado);
     }
@@ -417,8 +364,7 @@ public class RedDHCP
      * @return String
      */
     @Override
-    public String toString()
-    {
+    public String toString() {
         return "{" + " listaIPsAsignables='" + getListaIPsAsignables() + "'" + ", servidorDNS='" + getServidorDNS()
                 + "'" + ", gateway='" + getGateway() + "'" + ", mascara='" + getMascara() + "'"
                 + ", tiempoArrendamiento='" + getTiempoArrendamiento() + "'" + ", ipRangoInicial='"
