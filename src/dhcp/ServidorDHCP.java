@@ -5,9 +5,9 @@ import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.Inet4Address;
 import java.net.InetAddress;
+import java.net.NetworkInterface;
 import java.net.SocketException;
 import java.net.UnknownHostException;
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
@@ -52,12 +52,12 @@ public class ServidorDHCP
         }
         catch (SocketException ex)
         {
-            LoggerS.mensaje(ServidorDHCP.class.getName() + ": " + ex);
+            LoggerS.mensaje(ServidorDHCP.class.getName() + ": " + ex + " ->54");
             // Logger.getLogger(ServidorDHCP.class.getName()).log(Level.SEVERE, null, ex);
         }
         catch (IOException ex)
         {
-            LoggerS.mensaje(ServidorDHCP.class.getName() + ": " + ex);
+            LoggerS.mensaje(ServidorDHCP.class.getName() + ": " + ex + " ->59");
             // Logger.getLogger(ServidorDHCP.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
@@ -87,7 +87,7 @@ public class ServidorDHCP
         }
         catch (UnknownHostException ex)
         {
-            LoggerS.mensaje(ServidorDHCP.class.getName() + ": " + ex);
+            LoggerS.mensaje(ServidorDHCP.class.getName() + ": " + ex + " ->89");
             // LoggerS.getLogger(ServidorDHCP.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
@@ -114,12 +114,12 @@ public class ServidorDHCP
                     while (!centroPaquetes.isEmpty())
                     {
                         paqueteDhcpRecibio = centroPaquetes.poll();
-                        LoggerS.mensaje(paqueteDhcpRecibio.toString()); // Guardar informacion paquete en el log
+                        LoggerS.mensaje(paqueteDhcpRecibio.toString() + " ->116"); // Guardar informacion paquete en el log
 
-                        RedDHCP redActual = ObtenerRed(paqueteDhcpRecibio.getDirGateway());
+                        RedDHCP redActual = ObtenerRed(paqueteDhcpRecibio.getIpAgenteRelay());
                         if (redActual == null)
                         {
-                            LoggerS.mensaje("No se pudo establecer una conexión con la red.");
+                            LoggerS.mensaje("No se pudo establecer una conexión con la red." + " ->121");
                             continue terminarProcesoPaqueteRecibido;
                         }
 
@@ -183,9 +183,8 @@ public class ServidorDHCP
                                     redActual.renovarTiempoArrendamiento(paqueteDhcpRecibio.getIpCliente(),
                                             redActual.getTiempoArrendamiento());
                                 }
-                                paqueteDhcpAEnviar.construirPaqueteACK(paqueteDhcpRecibio,
-                                        Inet4Address.getByAddress(ipAgregada.getIp()),
-                                        redActual.getTiempoArrendamiento(), null, null, ipServidor);
+                                paqueteDhcpAEnviar.construirPaqueteACK(paqueteDhcpRecibio, ipAgregada.getIp(),
+                                        redActual.getTiempoArrendamiento(), null, ipServidor, redActual.getMascara(), redActual.getGateway(), redActual.getServidorDNS());
                                 break;
 
                             case DHCPConstants.DHCPRELEASE:
@@ -206,13 +205,13 @@ public class ServidorDHCP
                                 continue terminarProcesoPaqueteRecibido;
                         }
                         paquete = new DatagramPacket(paqueteDhcpAEnviar.getBuffer(), paqueteDhcpAEnviar.getBufferSize(),
-                                InetAddress.getByName(BROADCAST), PUERTO_CLIENTE);
+                                InetAddress.getByName(BROADCAST), PUERTO_SERVIDOR);
                         socket.send(paquete);
                     }
                 }
                 catch (InterruptedException | IOException ex)
                 {
-                    LoggerS.mensaje(ServidorDHCP.class.getName() + ": " + ex);
+                    LoggerS.mensaje(ServidorDHCP.class.getName() + ": " + ex + " ->214");
                 }
             }
         }
@@ -230,11 +229,24 @@ public class ServidorDHCP
      * en la lista. si la encuentra retorna esa red sino retorna null
      * @return RedDHCP
      */
-    private static RedDHCP ObtenerRed(byte[] dirGateway)
+    private static RedDHCP ObtenerRed(byte[] ipAgenteRelay)
     {
+        if(Auxiliares.ipToString(ipAgenteRelay).equals(IP_VACIA))
+        {
+            for (int i = 0; i < listaRedes.size(); i++)
+            {
+
+                if (listaRedes.get(i).ipDentroDelRango(ServidorDHCP.ipServidor.getAddress()))
+                {
+                    listaRedes.get(i).agregarIp(ServidorDHCP.ipServidor.getAddress());
+                    return listaRedes.get(i);
+                }
+            }
+        }
+
         for (int i = 0; i < listaRedes.size(); i++)
         {
-            if (Auxiliares.compararIps(listaRedes.get(i).getGateway(), dirGateway))
+            if (Auxiliares.compararIps(listaRedes.get(i).getGateway(), ipAgenteRelay))
             {
                 return listaRedes.get(i);
             }

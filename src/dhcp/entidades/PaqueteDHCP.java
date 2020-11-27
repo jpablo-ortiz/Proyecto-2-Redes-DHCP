@@ -12,8 +12,7 @@ import org.dhcp4java.DHCPResponseFactory;
 import auxiliares.Auxiliares;
 import auxiliares.LoggerS;
 
-public class PaqueteDHCP
-{
+public class PaqueteDHCP {
 
     private static final byte DHO_DHCP_REQUESTED_ADDRESS = 50;
 
@@ -34,29 +33,31 @@ public class PaqueteDHCP
      * @param options
      * @param IPServidor
      */
-    public void construirPaqueteOffer(PaqueteDHCP discover, byte[] ipOfrecida, int leaseTime, String message, InetAddress IPServidor, byte[] mascara, byte[] gateway, byte[] dns)
-    {
+    public void construirPaqueteOffer(PaqueteDHCP discover, byte[] ipOfrecida, int leaseTime, String message,
+            InetAddress IPServidor, byte[] mascara, byte[] gateway, byte[] dns) {
+
         InetAddress offeredAddress = null;
         DHCPOption[] opciones = new DHCPOption[3];
 
-        try
-        {
+        try {
             offeredAddress = Inet4Address.getByAddress(ipOfrecida);
+
             opciones[0] = DHCPOption.newOptionAsInetAddress(DHO_SUBNET_MASK, Inet4Address.getByAddress(mascara));
             opciones[1] = DHCPOption.newOptionAsInetAddress(DHO_ROUTERS, Inet4Address.getByAddress(gateway));
             opciones[2] = DHCPOption.newOptionAsInetAddress(DHO_DOMAIN_NAME_SERVERS, Inet4Address.getByAddress(dns));
 
             LoggerS.mensaje(" ");
             LoggerS.mensaje("--------------------- OFFER ----------------------");
-            LoggerS.mensaje("| Paquete recibido: DHCP-Discover | MAC: " + Auxiliares.macToString(discover.getMacCliente()) + " |");
-            LoggerS.mensaje("| IP ofrecida: " + offeredAddress.getHostAddress() + " | Tiempo de arrendamiento: " + leaseTime + "s |");
+            LoggerS.mensaje("| Paquete recibido: DHCP-Discover | MAC: "
+                    + Auxiliares.macToString(discover.getMacCliente()) + " |");
+            LoggerS.mensaje("| IP ofrecida: " + offeredAddress.getHostAddress() + " | Tiempo de arrendamiento: "
+                    + leaseTime + "s |");
             LoggerS.mensaje("--------------------------------------------------");
             LoggerS.mensaje(" ");
 
-            dhcpPack = DHCPResponseFactory.makeDHCPOffer(discover.getDHCPPacket(), offeredAddress, leaseTime, IPServidor, message, opciones);
-        }
-        catch (UnknownHostException e)
-        {
+            dhcpPack = DHCPResponseFactory.makeDHCPOffer(discover.getDHCPPacket(), offeredAddress, leaseTime,
+                    IPServidor, message, opciones);
+        } catch (UnknownHostException e) {
             LoggerS.mensaje(PaqueteDHCP.class.getName() + ": " + e);
         }
     }
@@ -69,19 +70,30 @@ public class PaqueteDHCP
      * @param options
      * @param IPServidor
      */
-    public void construirPaqueteACK(PaqueteDHCP request, InetAddress offeredAddress, int leaseTime, String message,
-            DHCPOption[] options, InetAddress IPServidor)
-    {
+    public void construirPaqueteACK(PaqueteDHCP request, byte[] ipOfrecida, int leaseTime, String message, InetAddress IPServidor, byte[] mascara, byte[] gateway, byte[] dns) {
 
-        LoggerS.mensaje(" ");
-        LoggerS.mensaje("--------------------- ACK ------------------------");
-        LoggerS.mensaje(
-                "| Paquete recibido: DHCP-request | Dirección IP asignada: " + offeredAddress.getHostAddress() + " |");
-        LoggerS.mensaje("| Tiempo de arrendamiento: " + leaseTime + " |");
-        LoggerS.mensaje("--------------------------------------------------");
-        LoggerS.mensaje(" ");
-        dhcpPack = DHCPResponseFactory.makeDHCPAck(request.getDHCPPacket(), offeredAddress, leaseTime, IPServidor,
-                message, options);
+        InetAddress offeredAddress = null;
+        DHCPOption[] opciones = new DHCPOption[3];
+
+        try {
+            offeredAddress = Inet4Address.getByAddress(ipOfrecida);
+
+            opciones[0] = DHCPOption.newOptionAsInetAddress(DHO_SUBNET_MASK, Inet4Address.getByAddress(mascara));
+            opciones[1] = DHCPOption.newOptionAsInetAddress(DHO_ROUTERS, Inet4Address.getByAddress(gateway));
+            opciones[2] = DHCPOption.newOptionAsInetAddress(DHO_DOMAIN_NAME_SERVERS, Inet4Address.getByAddress(dns));
+
+            LoggerS.mensaje(" ");
+            LoggerS.mensaje("--------------------- ACK ------------------------");
+            LoggerS.mensaje("| Paquete recibido: DHCP-request | Dirección IP asignada: "
+                    + offeredAddress.getHostAddress() + " |");
+            LoggerS.mensaje("| Tiempo de arrendamiento: " + leaseTime + " |");
+            LoggerS.mensaje("--------------------------------------------------");
+            LoggerS.mensaje(" ");
+            dhcpPack = DHCPResponseFactory.makeDHCPAck(request.getDHCPPacket(), offeredAddress, leaseTime, IPServidor,
+                    message, opciones);
+        } catch (UnknownHostException e) {
+            LoggerS.mensaje(PaqueteDHCP.class.getName() + ": " + e);
+        }
     }
 
     /**
@@ -89,8 +101,7 @@ public class PaqueteDHCP
      * @param message
      * @param IPServidor
      */
-    public void construirPaqueteNACK(PaqueteDHCP request, String message, InetAddress IPServidor)
-    {
+    public void construirPaqueteNACK(PaqueteDHCP request, String message, InetAddress IPServidor) {
         LoggerS.mensaje(" ");
         LoggerS.mensaje("--------------------- NACK ------------------------");
         LoggerS.mensaje("| Estado del reporte: Ejecución negada |");
@@ -99,78 +110,83 @@ public class PaqueteDHCP
         dhcpPack = DHCPResponseFactory.makeDHCPNak(request.getDHCPPacket(), IPServidor, message);
     }
 
-    public PaqueteDHCP()
-    {
+    public PaqueteDHCP() {
         dhcpPack = new DHCPPacket();
     }
 
-    public PaqueteDHCP(DatagramPacket paquete)
-    {
+    public PaqueteDHCP(DatagramPacket paquete) {
         dhcpPack = DHCPPacket.getPacket(paquete);
     }
 
     /**
      * @return byte[]
      */
-    public byte[] getDirGateway()
-    {
+    public byte[] getDirGateway() {
         return dhcpPack.getGiaddrRaw();
     }
 
     /**
      * @return Byte
      */
-    public Byte getDHCPMessageType()
-    {
+    public Byte getDHCPMessageType() {
         return dhcpPack.getDHCPMessageType();
     }
 
     /**
      * @return byte[]
      */
-    public byte[] getBuffer()
-    {
+    public byte[] getBuffer() {
         return dhcpPack.serialize();
     }
 
     /**
      * @return int
      */
-    public int getBufferSize()
-    {
+    public int getBufferSize() {
         return dhcpPack.serialize().length;
     }
 
     /**
      * @return byte[]
      */
-    public byte[] getMacCliente()
-    {
+    public byte[] getMacCliente() {
         return dhcpPack.getChaddr();
     }
 
     /**
      * @return byte[]
      */
-    public byte[] getIpCliente()
-    {
+    public byte[] getIpCliente() {
         return dhcpPack.getCiaddrRaw();
     }
 
     /**
      * @return DHCPPacket
      */
-    public DHCPPacket getDHCPPacket()
-    {
+    public DHCPPacket getDHCPPacket() {
         return dhcpPack;
     }
 
     /**
      * @return byte[]
      */
-    public byte[] getIpSolicitada()
-    {
+    public byte[] getIpSolicitada() {
         return dhcpPack.getOptionAsInetAddr(DHO_DHCP_REQUESTED_ADDRESS).getAddress();
+    }
+
+    /**
+     * @return byte[]
+     */
+    public byte[] getIpAgenteRelay() {
+        return dhcpPack.getGiaddrRaw();
+    }
+
+    /**
+     * @return String
+     */
+    @Override
+    public String toString() {
+        return dhcpPack.toString();
     }
 
 }

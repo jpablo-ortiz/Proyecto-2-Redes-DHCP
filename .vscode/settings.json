@@ -3,6 +3,9 @@
         "lib/**/*.jar",
         "d:\\Juanpa\\U\\Semestre 6\\Comunicacion de redes e Internet\\Proyecto 2\\Code\\dhcp4java-1.00.jar",
         "d:\\Juanpa\\U\\Semestre 6\\Comunicacion de redes e Internet\\Proyecto 2\\Code\\log4j.jar",
-        "d:\\Juanpa\\U\\Semestre 6\\Comunicacion de redes e Internet\\Proyecto 2\\Code\\opencsv-2.2.jar"
+        "d:\\Juanpa\\U\\Semestre 6\\Comunicacion de redes e Internet\\Proyecto 2\\Code\\opencsv-2.2.jar",
+        "c:\\Users\\Grupo2Redes\\Documents\\GitHub\\dhcp4java-1.00.jar",
+        "c:\\Users\\Grupo2Redes\\Documents\\GitHub\\log4j.jar",
+        "c:\\Users\\Grupo2Redes\\Documents\\GitHub\\opencsv-2.2.jar"
     ]
 }

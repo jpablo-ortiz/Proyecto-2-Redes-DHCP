@@ -30,7 +30,7 @@ public class Auxiliares {
             CSVReader csvReader = new CSVReader(new FileReader(empleadosCSV));
             return csvReader.readAll();
         } catch (Exception e) {
-            LoggerS.mensaje("Error en la lectura del archivo plano 'ArchivoPlano.csv'");
+            LoggerS.mensaje("Error en la lectura del archivo plano 'ArchivoPlano.csv'"  + " ->33");
             return null;
         }
     }
@@ -41,7 +41,7 @@ public class Auxiliares {
      */
     public static List<RedDHCP> obtenerRedesPorCSV() {
         List<String[]> datos = leerRedesCSV();
-
+        datos.remove(0);
         List<RedDHCP> redesDHCP = new ArrayList<>();
 
         byte[] rangoIzquierdo;

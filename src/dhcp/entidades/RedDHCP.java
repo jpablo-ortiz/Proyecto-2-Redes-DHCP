@@ -78,14 +78,14 @@ public class RedDHCP
         ipArrendamientoActual = new IpArriendo(ipActual.clone(), macCliente);
 
         boolean siguienteIp = false;
-        for (int i = ipActual.length; i >= 0; i--)
+        for (int i = ipActual.length - 1; i >= 0; i--)
         {
             if (i != 3)
             {
-                ipActual[i - 1] = 0;
+                ipActual[i + 1] = 0;
             }
 
-            if (ipActual[i] < (byte) 255 && !siguienteIp)
+            if (ipActual[i] < Auxiliares.unsignedToBytes((byte) 255) && !siguienteIp)
             {
                 ipActual[i] = (byte) (Auxiliares.unsignedToBytes(ipActual[i]) + 1);
                 siguienteIp = true;
@@ -131,12 +131,9 @@ public class RedDHCP
     public IpArriendo agregarIp(byte[] ip)
     {
         IpArriendo temp = verificarIp(ip);
-        ipRangoInicialLong = Auxiliares.ipALong(this.ipRangoInicial);
-        ipRangoFinalLong = Auxiliares.ipALong(this.ipRangoFinal);
-        ipTemp = Auxiliares.ipALong(ip);
         if (temp == null)
         {
-            if (ipTemp < ipRangoFinalLong && ipTemp > ipRangoInicialLong)
+            if (ipDentroDelRango(ip))
             {
                 temp = new IpArriendo(ip);
                 listaIPsAsignables.add(temp);
@@ -148,6 +145,18 @@ public class RedDHCP
 
         }
         return temp;
+    }
+
+    public boolean ipDentroDelRango(byte[] ip)
+    {
+        ipRangoInicialLong = Auxiliares.ipALong(this.ipRangoInicial);
+        ipRangoFinalLong = Auxiliares.ipALong(this.ipRangoFinal);
+        ipTemp = Auxiliares.ipALong(ip);
+
+        if (ipTemp <= ipRangoFinalLong && ipTemp >= ipRangoInicialLong)
+            return true;
+        else
+            return false;
     }
 
     /**
