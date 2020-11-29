@@ -9,6 +9,12 @@ import java.util.List;
 import au.com.bytecode.opencsv.CSVReader;
 import entidades.RedDHCP;
 
+/**
+ * Esta clase implementa las funciones auxiliares para todo el servidor DHCP
+ *
+ * @author Kenneth Leonel, Cristian Dacamara, Luis Montenegro, Juan Pablo Ortiz
+ * @version 1.0
+ */
 public class Auxiliares {
 
     /**
@@ -17,7 +23,7 @@ public class Auxiliares {
     private static final String empleadosCSV = "src/dhcp/archivos/ArchivoPlano.csv";
 
     /**
-     * Lee el arcivho empleados.csv ubicado en resources.
+     * Lee el archivo empleados.csv ubicado en resources.
      *
      * @return List<String[]> Lista (lineas del csv) de arreglos de Strings
      *         (columnas de cada linea csv).
@@ -35,9 +41,10 @@ public class Auxiliares {
         }
     }
 
-    
-    /** 
+
+    /**
      * @return List<RedDHCP>
+     * - se guarda los datos correspondientes del archivo plano como es el rango de IPs, mascara,gateway,DNS y tiempoArrendamiento.
      */
     public static List<RedDHCP> obtenerRedesPorCSV() {
         List<String[]> datos = leerRedesCSV();
@@ -64,6 +71,7 @@ public class Auxiliares {
     }
 
     /**
+     * Esta funcion compara dos direcciones mac, en caso de ser iguales retorna verdadero, en caso contrario retorna falso
      * @param mac1
      * @param mac2
      * @return boolean
@@ -82,6 +90,7 @@ public class Auxiliares {
     }
 
     /**
+     * Esta funcion compara dos direcciones mac, en caso de ser iguales retorna verdadero, en caso contrario retorna falso
      * @param ip1
      * @param ip2
      * @return boolean
@@ -104,6 +113,7 @@ public class Auxiliares {
     }
 
     /**
+     * Esta funcion transforma una mac (arreglo de bytes) a string
      * @param arr
      * @return String
      */
@@ -127,6 +137,7 @@ public class Auxiliares {
     }
 
     /**
+     * Esta funcion transforma una ip (arreglo de bytes) a string
      * @param arr
      * @return String
      */
@@ -200,6 +211,7 @@ public class Auxiliares {
     /**
      * @param ipRango
      * @return long
+     * Se recibe una ip de tipo byte donde la pasamos a tipo long y la retorna
      */
     public static long ipALong(byte[] ipRango) {
         long resultado = 0;

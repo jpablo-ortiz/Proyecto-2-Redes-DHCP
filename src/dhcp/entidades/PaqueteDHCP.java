@@ -12,19 +12,25 @@ import org.dhcp4java.DHCPResponseFactory;
 import auxiliares.Auxiliares;
 import auxiliares.LoggerS;
 
+/**
+ * Esta clase contiene atributos y métodos de un Paquete DHCP
+ *
+ * @author Kenneth Leonel, Cristian Dacamara, Luis Montenegro, Juan Pablo Ortiz
+ * @version 1.0
+ */
 public class PaqueteDHCP {
 
     private static final byte DHO_DHCP_REQUESTED_ADDRESS = 50;
 
-    private static final byte DHO_SUBNET_MASK = 1; // getValueAsInetAddr() //Mascara de red
-    private static final byte DHO_ROUTERS = 3; // getValueAsInetAddrs() //GATEWAY
-    private static final byte DHO_DOMAIN_NAME_SERVERS = 6; // getValueAsInetAddrs() //DNS
+    private static final byte DHO_SUBNET_MASK = 1; //Mascara de red
+    private static final byte DHO_ROUTERS = 3; //GATEWAY
+    private static final byte DHO_DOMAIN_NAME_SERVERS = 6; //DNS
 
     private DHCPPacket dhcpPack;
 
     /**
      * se utiliza la funcion DHCPResponseFactory.makeDHCPOffer() de la libreria
-     * DHCPPacket para crear un paquete de tipo DHCP Offer.
+     * DHCPPacket para construir un paquete de tipo DHCP Offer.
      *
      * @param discover
      * @param offeredAddress
@@ -63,6 +69,9 @@ public class PaqueteDHCP {
     }
 
     /**
+     * se utiliza la funcion DHCPResponseFactory.makeDHCPAck() de la libreria
+     * DHCPPacket para construir un paquete de tipo DHCP Ack.
+     *
      * @param request
      * @param ipOfrecida
      * @param leaseTime
@@ -87,9 +96,11 @@ public class PaqueteDHCP {
 
             LoggerS.mensaje(" ");
             LoggerS.mensaje("--------------------- ACK ------------------------");
+            LoggerS.mensaje("");
             LoggerS.mensaje("| Paquete recibido: DHCP-request | Dirección IP asignada: "
                     + offeredAddress.getHostAddress() + " |");
             LoggerS.mensaje("| Tiempo de arrendamiento: " + leaseTime + " |");
+            LoggerS.mensaje("");
             LoggerS.mensaje("--------------------------------------------------");
             LoggerS.mensaje(" ");
             dhcpPack = DHCPResponseFactory.makeDHCPAck(request.getDHCPPacket(), offeredAddress, leaseTime, IPServidor,
@@ -100,6 +111,8 @@ public class PaqueteDHCP {
     }
 
     /**
+     * Se utiliza la funcion DHCPResponseFactory.makeDHCPNak() de la libreria
+     * DHCPPacket para construir un paquete de tipo DHCP Nack.
      * @param request
      * @param message
      * @param IPServidor
@@ -107,7 +120,9 @@ public class PaqueteDHCP {
     public void construirPaqueteNACK(PaqueteDHCP request, String message, InetAddress IPServidor) {
         LoggerS.mensaje(" ");
         LoggerS.mensaje("--------------------- NACK ------------------------");
+        LoggerS.mensaje("");
         LoggerS.mensaje("| Estado del reporte: Ejecución negada |");
+        LoggerS.mensaje("");
         LoggerS.mensaje("---------------------------------------------------");
         LoggerS.mensaje(" ");
         dhcpPack = DHCPResponseFactory.makeDHCPNak(request.getDHCPPacket(), IPServidor, message);

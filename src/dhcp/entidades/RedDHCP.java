@@ -7,6 +7,12 @@ import java.util.Objects;
 
 import auxiliares.Auxiliares;
 
+/**
+ * Esta clase contiene atributos y métodos de una Red de la topología
+ *
+ * @author Kenneth Leonel, Cristian Dacamara, Luis Montenegro, Juan Pablo Ortiz
+ * @version 1.0
+ */
 public class RedDHCP {
 
     private List<IpArriendo> listaIPsAsignables;
@@ -36,12 +42,20 @@ public class RedDHCP {
         this.tiempoArrendamiento = tiempoArrendamiento;
     }
 
-    /**
+    /*
+     *
      * @param macCliente
      * @return byte[]
+
+
+    -
      */
     public byte[] ipOfertado(byte[] macCliente) {
         IpArriendo ipArrendamientoActual;
+
+        /*
+          Se verifica si en la lista de ips asignables, alguna de esas ips tiene asignada la mac del cliente solicitante, en ese caso se retorna esta ip
+        */
 
         for (int i = 0; i < listaIPsAsignables.size(); i++) {
             ipArrendamientoActual = listaIPsAsignables.get(i);
@@ -51,6 +65,9 @@ public class RedDHCP {
             }
         }
 
+        /*
+          Se verifica si en la lista de ips asignables, el primer ip que se encuentre que no este arrendado, a este se le asigna la mac del cliente y se retorna la ip para ofrecer
+        */
         for (int i = 0; i < listaIPsAsignables.size(); i++) {
             ipArrendamientoActual = listaIPsAsignables.get(i);
 
@@ -60,11 +77,21 @@ public class RedDHCP {
             }
         }
 
+        /*
+           -  En caso de que no se cumpla ninguna de las anteriores y el rango fue completado, se retorna nulo, en caso de que el rango no fue completado,
+              se compara si se esta en el rango final y si es asi, rango completado se coloca como verdadero,
+        */
         if (rangoCompletado) {
             return null;
         } else if (Auxiliares.compararIps(ipActual, ipRangoFinal)) {
             rangoCompletado = true;
         }
+
+
+        /*
+          Por ultimo se verifica la dirrección ip que será asignada para ello se va a rectificar cada byte de la IP y que no se pase del rango de cada byte que es "255",
+          si encuentra un valor dentro del rango asignable lo añade a la lista de Ips asiganles y despues lo retorna.
+        */
 
         ipArrendamientoActual = new IpArriendo(ipActual.clone(), macCliente);
 
@@ -90,6 +117,8 @@ public class RedDHCP {
     }
 
     /**
+     * verifica la lista de ips asignables, y al comparar IP si son iguales, el retorna la ip
+     * en caso contrario retorna null
      * @param ipCliente
      * @return IpArriendo
      */
@@ -98,7 +127,6 @@ public class RedDHCP {
 
         for (int i = 0; i < listaIPsAsignables.size(); i++) {
             ipArrendamientoActual = listaIPsAsignables.get(i);
-
             if (Auxiliares.compararIps(ipArrendamientoActual.getIp(), ipCliente)) {
                 return ipArrendamientoActual;
             }
@@ -107,11 +135,12 @@ public class RedDHCP {
     }
 
     /**
+     * Se agrega a la lista de Ips si la ip esta disponible
+     * Se retorna la ip.
      * @param ip
      * @return IpArriendo
      */
-    // Se agrega a la lista de Ips si la ip esta disponible
-    // Se retorna la ip.
+
     public IpArriendo agregarIp(byte[] ip) {
         IpArriendo temp = verificarIp(ip);
         if (temp == null) {
@@ -126,6 +155,11 @@ public class RedDHCP {
         return temp;
     }
 
+
+    /*
+    * verifica que la ip recibida por parametro esta dentro de los rangos inicial y final
+    * ipALong () lo que hace es transformar un arreglo de bytes a long
+    */
     public boolean ipDentroDelRango(byte[] ip) {
 
         ipRangoInicialLong = Auxiliares.ipALong(this.ipRangoInicial);
@@ -139,6 +173,7 @@ public class RedDHCP {
     }
 
     /**
+     * - al cliente actual se le asigan las direcciones correspondientes
      * @param ip
      * @param tiempoArrendamiento
      * @param mac
@@ -153,6 +188,8 @@ public class RedDHCP {
 
     /**
      * @param ipCliente
+     - Se necesita la ip asignada del cliente y se le libera esa ip
+     - se le cambia el estado de esa ip a falso para que pueda ser asignado a otro cliente.
      */
     public void liberarIp(byte[] ipCliente) {
         IpArriendo ipArrendamientoActual;
@@ -168,6 +205,7 @@ public class RedDHCP {
     }
 
     /**
+     * Esta funcion renueva el tiempo de lease para una ip que esta asignando a un cliente
      * @param ipCliente
      * @param tiempoArrendamiento
      * @return boolean
@@ -181,7 +219,11 @@ public class RedDHCP {
         temp.getTiempoFinal().add(GregorianCalendar.SECOND, tiempoArrendamiento);
         return temp;
     }
-
+    /*
+    - Se verifca el tiempo de arrendamiento final del cliente actual,
+      si se pasa del tiempo la dirección IP se le cambia el estado a falso
+      para que pueda ser asignada a otro cliente.
+    */
     public void verificarCaducidadLease() {
         IpArriendo ipArrendamientoActual;
         GregorianCalendar horaActual;

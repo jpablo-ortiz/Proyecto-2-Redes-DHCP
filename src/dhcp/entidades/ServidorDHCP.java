@@ -1,3 +1,5 @@
+package entidades;
+
 import static java.lang.Thread.sleep;
 
 import java.io.IOException;
@@ -5,9 +7,7 @@ import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.Inet4Address;
 import java.net.InetAddress;
-import java.net.NetworkInterface;
 import java.net.SocketException;
-import java.net.UnknownHostException;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
@@ -16,10 +16,18 @@ import org.dhcp4java.DHCPConstants;
 
 import auxiliares.Auxiliares;
 import auxiliares.LoggerS;
+/*
 import entidades.IpArriendo;
 import entidades.PaqueteDHCP;
 import entidades.RedDHCP;
+*/
 
+/**
+ * Esta clase contiene la implementación del servidor DHCP
+ *
+ * @author Kenneth Leonel, Cristian Dacamara, Luis Montenegro, Juan Pablo Ortiz
+ * @version 1.0
+ */
 public class ServidorDHCP {
 
     private static final int PUERTO_CLIENTE = 68;
@@ -32,10 +40,18 @@ public class ServidorDHCP {
     private static Queue<PaqueteDHCP> centroPaquetes;
     private static InetAddress ipServidor;
 
-    ServidorDHCP() {
-        DatagramSocket socket;
+
+    /*
+        Constructor servidorDHCP, abrimos el puerto 67, y cada paquete
+        que se reciba se guarda en la cola centroPaquetes
+    */
+    public ServidorDHCP() {
         try {
-            socket = new DatagramSocket(PUERTO_SERVIDOR);
+            ipServidor = Inet4Address.getLocalHost();
+            listaRedes = Auxiliares.obtenerRedesPorCSV();
+            centroPaquetes = new LinkedList<>();
+
+            DatagramSocket socket = new DatagramSocket(PUERTO_SERVIDOR);
             DatagramPacket paquete = new DatagramPacket(new byte[socket.getSendBufferSize()],
                     socket.getSendBufferSize());
 
@@ -56,29 +72,9 @@ public class ServidorDHCP {
 
     /**
      * @param args
-     */
-    public static void main(String[] args) {
-        try {
-            ipServidor = Inet4Address.getLocalHost();
-            listaRedes = Auxiliares.obtenerRedesPorCSV();
-            centroPaquetes = new LinkedList<>();
-
-            new Thread(new Runnable() {
-                @Override
-                public void run() {
-                    procesarSolicitudes();
-                }
-            }).start();
-
-            ServidorDHCP servidorDhcp = new ServidorDHCP();
-
-        } catch (UnknownHostException ex) {
-            LoggerS.mensaje(ServidorDHCP.class.getName() + ": " + ex + " ->89");
-            // LoggerS.getLogger(ServidorDHCP.class.getName()).log(Level.SEVERE, null, ex);
-        }
-    }
-
-    public static void procesarSolicitudes() {
+     *
+    */
+    public void procesarSolicitudes() {
 
         PaqueteDHCP paqueteDhcpRecibio;
 
@@ -92,7 +88,8 @@ public class ServidorDHCP {
             while (true) {
                 try {
                     sleep(SEGUNDO / 2);
-                    terminarProcesoPaqueteRecibido: while (!centroPaquetes.isEmpty()) {
+                    terminarProcesoPaqueteRecibido:
+                    while (!centroPaquetes.isEmpty()) {
                         paqueteDhcpRecibio = centroPaquetes.poll();
 
                         RedDHCP redActual = ObtenerRed(paqueteDhcpRecibio.getIpAgenteRelay());
@@ -101,20 +98,22 @@ public class ServidorDHCP {
                             continue terminarProcesoPaqueteRecibido;
                         }
 
-                        // -En caso de que el tipo de paquete que se reciba sea de tipo DISCOVER, se
-                        // procedera
-                        // a crear un paquete de tipo offer y se envia ese paquete.
-                        // -En caso de que se reciba uno de tipo REQUEST, se verifica que todo esta en
-                        // orden, en
-                        // caso de que este todo en orden se crea un paquete de tipo ACK, en caso
-                        // contrario uno
-                        // de tipo NACK y por ultimo se envia este paquete.
-                        // -En caso de ser tipo RELEASE.
+                        /*  -En caso de que el tipo de paquete que se reciba sea de tipo DISCOVER, se
+                            procedera a crear un paquete de tipo offer y se envia ese paquete al cliente.
+                            -En caso de que se reciba uno de tipo REQUEST, se verifica que todo esta en
+                            orden, en caso de que este todo en orden se crea un paquete de tipo ACK, en caso
+                            contrario uno de tipo NACK y por ultimo se envia este paquete al cliente.
+                            -En caso de ser tipo RELEASE. se recibe un paquete RELEASE y este procede a liberar
+                            la direccion IP entre otros datos que posee el cliente.
+                        */
                         switch (paqueteDhcpRecibio.getDHCPMessageType()) {
 
                             case DHCPConstants.DHCPDISCOVER:
                                 LoggerS.mensaje(paqueteDhcpRecibio.toString() + " ->116"); // Guardar informacion paquete en el
-
+                                LoggerS.mensaje("");
+                                LoggerS.mensaje("");
+                                LoggerS.mensaje("");
+                                LoggerS.mensaje("");
                                 byte[] ip = redActual.ipOfertado(paqueteDhcpRecibio.getMacCliente());
                                 if (ip == null) {
                                     LoggerS.mensaje(
@@ -130,11 +129,19 @@ public class ServidorDHCP {
 
                             case DHCPConstants.DHCPREQUEST:
                                 LoggerS.mensaje(paqueteDhcpRecibio.toString() + " ->116"); // Guardar informacion paquete en el
-
+                                LoggerS.mensaje("");
+                                LoggerS.mensaje("");
+                                LoggerS.mensaje("");
+                                LoggerS.mensaje("");
                                 IpArriendo ipAgregada = null;
 
+
+                                /*
+                                    verificarIP, verifica que la ipSolicitada este en la lista de IPs de la red actual.
+                                    agregarIP,  llama a la función verificar y si esta disponible agrega la IP
+                                */
                                 IpArriendo ipSolicitada = redActual.verificarIp(paqueteDhcpRecibio.getIpSolicitada());
-                                
+
                                 if (!ipSolicitada.esArrendado()) {
                                     if (!Auxiliares.compararMacs(ipSolicitada.getMac(),
                                             paqueteDhcpRecibio.getMacCliente()) && ipSolicitada.esArrendado()
@@ -163,14 +170,26 @@ public class ServidorDHCP {
 
                             case DHCPConstants.DHCPRELEASE:
                                 LoggerS.mensaje(paqueteDhcpRecibio.toString() + " ->116"); // Guardar informacion paquete en el
+                                LoggerS.mensaje("");
+                                LoggerS.mensaje("");
+                                LoggerS.mensaje("");
+                                LoggerS.mensaje("");
 
                                 LoggerS.mensaje(
                                         "--------------------------------------RELEASE--------------------------------------");
+                                        LoggerS.mensaje("");
+
                                 LoggerS.mensaje("| Liberación del Ip cliente "
                                         + Auxiliares.ipToString(paqueteDhcpRecibio.getIpCliente())
                                         + " realizado correctamente|");
+                                        LoggerS.mensaje("");
+                                        
                                 LoggerS.mensaje(
                                         "-----------------------------------------------------------------------------------");
+                                LoggerS.mensaje("");
+                                LoggerS.mensaje("");
+                                LoggerS.mensaje("");
+                                LoggerS.mensaje("");
                                 redActual.liberarIp(paqueteDhcpRecibio.getIpCliente());
                                 continue terminarProcesoPaqueteRecibido;
 
@@ -203,7 +222,7 @@ public class ServidorDHCP {
             for (int i = 0; i < listaRedes.size(); i++) {
 
                 if (listaRedes.get(i).ipDentroDelRango(ServidorDHCP.ipServidor.getAddress())) {
-                    //IpArriendo ipServ = listaRedes.get(i).verificarIp(ServidorDHCP.ipServidor.getAddress());
+
                     listaRedes.get(i).asignarIp(listaRedes.get(i).agregarIp(ServidorDHCP.ipServidor.getAddress()), 90000000, new byte[]{0,0,0,0,0,0});
                     return listaRedes.get(i);
                 }
@@ -217,4 +236,5 @@ public class ServidorDHCP {
         }
         return null;
     }
+
 }

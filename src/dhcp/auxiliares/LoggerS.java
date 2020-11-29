@@ -6,6 +6,12 @@ import java.util.logging.FileHandler;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
+/**
+ * Esta clase implementa el logger para el servidor DHCP
+ *
+ * @author Kenneth Leonel, Cristian Dacamara, Luis Montenegro, Juan Pablo Ortiz
+ * @version 1.0
+ */
 public class LoggerS
 {
 

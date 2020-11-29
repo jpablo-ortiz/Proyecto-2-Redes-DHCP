@@ -3,6 +3,12 @@ package entidades;
 import java.util.GregorianCalendar;
 import java.util.Objects;
 
+/**
+ * Esta clase contiene atributos y métodos de un Ip de arrendamiento
+ *
+ * @author Kenneth Leonel, Cristian Dacamara, Luis Montenegro, Juan Pablo Ortiz
+ * @version 1.0
+ */
 public class IpArriendo
 {
 
