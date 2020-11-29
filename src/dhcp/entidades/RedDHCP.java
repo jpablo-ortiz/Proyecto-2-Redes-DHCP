@@ -28,8 +28,8 @@ public class RedDHCP {
     private byte[] ipActual;
     private boolean rangoCompletado;// bool para rectificar si aún hay disponible ip en red
 
-    public RedDHCP(byte[] servidorDNS, byte[] gateway, byte[] mascara, byte[] ipRangoInicial, byte[] ipRangoFinal,
-            int tiempoArrendamiento) {
+
+    public RedDHCP(byte[] servidorDNS, byte[] gateway, byte[] mascara, byte[] ipRangoInicial, byte[] ipRangoFinal, int tiempoArrendamiento) {
         this.listaIPsAsignables = new ArrayList<>();
         this.servidorDNS = servidorDNS;
         this.gateway = gateway;
@@ -42,14 +42,6 @@ public class RedDHCP {
         this.tiempoArrendamiento = tiempoArrendamiento;
     }
 
-    /*
-     *
-     * @param macCliente
-     * @return byte[]
-
-
-    -
-     */
     public byte[] ipOfertado(byte[] macCliente) {
         IpArriendo ipArrendamientoActual;
 
@@ -140,7 +132,6 @@ public class RedDHCP {
      * @param ip
      * @return IpArriendo
      */
-
     public IpArriendo agregarIp(byte[] ip) {
         IpArriendo temp = verificarIp(ip);
         if (temp == null) {
@@ -156,10 +147,11 @@ public class RedDHCP {
     }
 
 
-    /*
-    * verifica que la ip recibida por parametro esta dentro de los rangos inicial y final
-    * ipALong () lo que hace es transformar un arreglo de bytes a long
-    */
+    /**
+     * verifica que la ip recibida por parametro esta dentro de los rangos inicial y final
+     * ipALong () lo que hace es transformar un arreglo de bytes a long
+     * @param ip
+     */
     public boolean ipDentroDelRango(byte[] ip) {
 
         ipRangoInicialLong = Auxiliares.ipALong(this.ipRangoInicial);
@@ -219,11 +211,11 @@ public class RedDHCP {
         temp.getTiempoFinal().add(GregorianCalendar.SECOND, tiempoArrendamiento);
         return temp;
     }
-    /*
-    - Se verifca el tiempo de arrendamiento final del cliente actual,
-      si se pasa del tiempo la dirección IP se le cambia el estado a falso
-      para que pueda ser asignada a otro cliente.
-    */
+    /**
+     * Se verifca el tiempo de arrendamiento final del cliente actual,
+     * si se pasa del tiempo la dirección IP se le cambia el estado a falso
+     * para que pueda ser asignada a otro cliente.
+     */
     public void verificarCaducidadLease() {
         IpArriendo ipArrendamientoActual;
         GregorianCalendar horaActual;
@@ -235,7 +227,6 @@ public class RedDHCP {
             if (horaActual.after(ipArrendamientoActual.getTiempoFinal())) {
                 ipArrendamientoActual.setArrendado(false);
             }
-            break;
         }
     }
 

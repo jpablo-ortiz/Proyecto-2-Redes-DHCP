@@ -18,14 +18,14 @@ public class Main {
      * Y llamamos a a procesarSolicitudes
      */
     public static void main(String[] args) {
-        ServidorDHCP servidorDhcp = new ServidorDHCP();
-
         new Thread(new Runnable() {
             @Override
             public void run() {
-                servidorDhcp.procesarSolicitudes();
+                ServidorDHCP.procesarSolicitudes();
             }
         }).start();
+
+        ServidorDHCP servidorDhcp = new ServidorDHCP();
     }
 
 }

@@ -36,7 +36,7 @@ public class Auxiliares {
             CSVReader csvReader = new CSVReader(new FileReader(empleadosCSV));
             return csvReader.readAll();
         } catch (Exception e) {
-            LoggerS.mensaje("Error en la lectura del archivo plano 'ArchivoPlano.csv'"  + " ->33");
+            LoggerS.mensaje("Error en la lectura del archivo plano 'ArchivoPlano.csv'");
             return null;
         }
     }
@@ -121,7 +121,7 @@ public class Auxiliares {
         String cadena = "";
         String separador = ":";
 
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i < 6; i++) {
             String conver = "" + Integer.toHexString((int) Byte.toUnsignedLong(arr[i]));
             if (conver.length() == 1) {
                 cadena += "0" + conver;
@@ -129,7 +129,7 @@ public class Auxiliares {
                 cadena += conver;
             }
 
-            if (i < arr.length - 1) {
+            if (i < 6 - 1) {
                 cadena += separador;
             }
         }
@@ -160,7 +160,7 @@ public class Auxiliares {
      */
     public static byte[] macStringAByte(String[] macString) {
         byte[] mac = new byte[6];
-        for (int j = 0; j < macString.length; j++) {
+        for (int j = 0; j < 6; j++) {
             mac[j] = Integer.decode("0x" + macString[j]).byteValue();
         }
         return mac;

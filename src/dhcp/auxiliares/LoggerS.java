@@ -32,16 +32,12 @@ public class LoggerS
             SimpleFormatter formatter = new SimpleFormatter();
             fh.setFormatter(formatter);
 
-            logger.info(mensaje);
+            logger.info("\n" + mensaje);
 
             fh.close();
 
         }
-        catch (SecurityException e)
-        {
-            e.printStackTrace();
-        }
-        catch (IOException e)
+        catch (SecurityException | IOException e)
         {
             e.printStackTrace();
         }
